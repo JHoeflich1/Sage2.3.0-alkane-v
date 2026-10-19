@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+
+
+
+2026/09/29 22:17:46.26 work_queue_worker[2278850]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.26 work_queue_worker[2278868]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.26 work_queue_worker[2278856]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.26 work_queue_worker[2278862]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.26 work_queue_worker[2278865]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.26 work_queue_worker[2278853]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.26 work_queue_worker[2278851]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.26 work_queue_worker[2278859]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.26 work_queue_worker[2278849]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 22:17:46.27 work_queue_worker[2278871]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/30 04:17:51.27 work_queue_worker[2278865]notice: stopping: no other managers available
+2026/09/30 04:17:51.27 work_queue_worker[2278868]notice: stopping: no other managers available
+2026/09/30 04:17:51.27 work_queue_worker[2278856]notice: stopping: no other managers available
+2026/09/30 04:17:51.28 work_queue_worker[2278850]notice: stopping: no other managers available
+2026/09/30 04:17:51.28 work_queue_worker[2278859]notice: stopping: no other managers available
+2026/09/30 04:17:51.28 work_queue_worker[2278862]notice: stopping: no other managers available
+2026/09/30 04:17:51.28 work_queue_worker[2278853]notice: stopping: no other managers available
+2026/09/30 04:17:51.28 work_queue_worker[2278851]notice: stopping: no other managers available
+2026/09/30 04:17:51.28 work_queue_worker[2278849]notice: stopping: no other managers available
+2026/09/30 04:17:51.28 work_queue_worker[2278871]notice: stopping: no other managers available
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278865
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45472
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278865
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278856
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45592
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278856
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278853
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45632
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278853
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278859
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45538
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278859
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278862
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45450
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278862
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278850
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45466
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278850
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278851
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45688
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278851
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278849
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45564
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278849
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278868
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45662
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278868
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278871
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.169:45672
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-2278871

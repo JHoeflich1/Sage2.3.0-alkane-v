@@ -1,0 +1,64 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2026-09-29
+HETATM    1  C1  UNK A   0       2.678   4.138   2.263  0.00  0.00           C  
+HETATM    2  C2  UNK A   0       2.262   2.693   2.270  0.00  0.00           C  
+HETATM    3  C3  UNK A   0       2.807   1.661   1.603  0.00  0.00           C  
+HETATM    4  C4  UNK A   0       3.977   1.771   0.655  0.00  0.00           C  
+HETATM    5  C5  UNK A   0       2.288   0.255   1.819  0.00  0.00           C  
+HETATM    6  C6  UNK A   0       3.154  -0.565   2.819  0.00  0.00           C  
+HETATM    7  C7  UNK A   0       3.044  -0.038   4.225  0.00  0.00           C  
+HETATM    8  C8  UNK A   0       3.864   0.828   4.844  0.00  0.00           C  
+HETATM    9  C9  UNK A   0       5.121   1.392   4.223  0.00  0.00           C  
+HETATM   10  C10 UNK A   0       3.537   1.342   6.230  0.00  0.00           C  
+HETATM   11  C11 UNK A   0       3.228   2.851   6.258  0.00  0.00           C  
+HETATM   12  H12 UNK A   0       1.844   4.786   1.966  0.00  0.00           H  
+HETATM   13  H13 UNK A   0       3.514   4.344   1.590  0.00  0.00           H  
+HETATM   14  H14 UNK A   0       2.976   4.455   3.272  0.00  0.00           H  
+HETATM   15  H15 UNK A   0       1.423   2.465   2.928  0.00  0.00           H  
+HETATM   16  H16 UNK A   0       4.788   1.096   0.952  0.00  0.00           H  
+HETATM   17  H17 UNK A   0       4.393   2.779   0.597  0.00  0.00           H  
+HETATM   18  H18 UNK A   0       3.678   1.472  -0.358  0.00  0.00           H  
+HETATM   19  H19 UNK A   0       1.260   0.289   2.195  0.00  0.00           H  
+HETATM   20  H20 UNK A   0       2.261  -0.284   0.863  0.00  0.00           H  
+HETATM   21  H21 UNK A   0       4.193  -0.576   2.475  0.00  0.00           H  
+HETATM   22  H22 UNK A   0       2.810  -1.606   2.793  0.00  0.00           H  
+HETATM   23  H23 UNK A   0       2.150  -0.354   4.765  0.00  0.00           H  
+HETATM   24  H24 UNK A   0       4.959   2.420   3.877  0.00  0.00           H  
+HETATM   25  H25 UNK A   0       5.936   1.422   4.956  0.00  0.00           H  
+HETATM   26  H26 UNK A   0       5.462   0.813   3.363  0.00  0.00           H  
+HETATM   27  H27 UNK A   0       2.679   0.792   6.631  0.00  0.00           H  
+HETATM   28  H28 UNK A   0       4.382   1.144   6.905  0.00  0.00           H  
+HETATM   29  H29 UNK A   0       2.968   3.177   7.271  0.00  0.00           H  
+HETATM   30  H30 UNK A   0       4.086   3.445   5.928  0.00  0.00           H  
+HETATM   31  H31 UNK A   0       2.386   3.084   5.597  0.00  0.00           H  
+TER      32      UNK A   0
+CONECT    1    2   12   13   14
+CONECT    2    1    3   15
+CONECT    3    2    4    5
+CONECT    4    3   16   17   18
+CONECT    5    3    6   19   20
+CONECT    6    5    7   21   22
+CONECT    7    6    8   23
+CONECT    8    7    9   10
+CONECT    9    8   24   25   26
+CONECT   10    8   11   27   28
+CONECT   11   10   29   30   31
+CONECT   12    1
+CONECT   13    1
+CONECT   14    1
+CONECT   15    2
+CONECT   16    4
+CONECT   17    4
+CONECT   18    4
+CONECT   19    5
+CONECT   20    5
+CONECT   21    6
+CONECT   22    6
+CONECT   23    7
+CONECT   24    9
+CONECT   25    9
+CONECT   26    9
+CONECT   27   10
+CONECT   28   10
+CONECT   29   11
+CONECT   30   11
+CONECT   31   11

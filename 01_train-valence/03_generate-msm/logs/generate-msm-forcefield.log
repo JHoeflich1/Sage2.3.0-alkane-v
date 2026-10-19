@@ -1,0 +1,7 @@
+2026-09-29 19:58:40,738 - __main__ - INFO - Loaded 614 MSM records
+2026-09-29 19:58:40,831 - __main__ - INFO - Found 14 unique molecules, 614 total records in MSM data
+2026-09-29 19:58:41,326 - __main__ - INFO - Loaded forcefield from ../01_generate-forcefield/output/initial-force-field.offxml
+Processing molecules to FF parameters:   0%|          | 0/14 [00:00<?, ?it/s]Processing molecules to FF parameters:   7%|▋         | 1/14 [00:00<00:01,  7.10it/s]Processing molecules to FF parameters:  43%|████▎     | 6/14 [00:00<00:00, 27.94it/s]Processing molecules to FF parameters:  79%|███████▊  | 11/14 [00:00<00:00, 33.61it/s]Processing molecules to FF parameters: 100%|██████████| 14/14 [00:00<00:00, 29.80it/s]
+2026-09-29 19:58:41,816 - __main__ - INFO - Wrote MSM partitions to msm-ff/initial-force-field-msm.json
+2026-09-29 19:58:41,816 - __main__ - INFO - Aggregating with mean
+2026-09-29 19:58:41,861 - __main__ - INFO - Wrote forcefield to output/initial-force-field-msm.offxml

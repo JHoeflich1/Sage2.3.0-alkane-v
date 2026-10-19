@@ -1,0 +1,629 @@
+
+
+
+
+
+
+
+
+
+
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45642
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55700
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45644
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55702
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45649
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55706
+2026/09/29 21:17:30.47 work_queue_worker[45640]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 21:17:30.47 work_queue_worker[45646]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 21:17:30.47 work_queue_worker[45648]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 21:17:30.47 work_queue_worker[45647]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 21:17:30.47 work_queue_worker[45641]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 21:17:30.47 work_queue_worker[45643]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/29 21:17:30.48 work_queue_worker[45645]notice: disconnecting from 10.225.8.167:59980 because I did not receive any task in 3600 seconds (--idle-timeout).
+2026/09/30 03:17:35.47 work_queue_worker[45646]notice: stopping: no other managers available
+2026/09/30 03:17:35.47 work_queue_worker[45648]notice: stopping: no other managers available
+2026/09/30 03:17:35.47 work_queue_worker[45641]notice: stopping: no other managers available
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45646
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55746
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45646
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45648
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55760
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45648
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45641
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55776
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45641
+2026/09/30 03:17:35.48 work_queue_worker[45643]notice: stopping: no other managers available
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45643
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55734
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45643
+2026/09/30 03:17:35.48 work_queue_worker[45645]notice: stopping: no other managers available
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45645
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55730
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45645
+2026/09/30 03:17:35.48 work_queue_worker[45647]notice: stopping: no other managers available
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45647
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55738
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45647
+2026/09/30 03:17:35.49 work_queue_worker[45640]notice: stopping: no other managers available
+work_queue_worker: creating workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45640
+work_queue_worker: using 1 cores, 1000 MB memory, 3000 MB disk, 0 gpus
+connected to manager bgpu-shirts1.rc.int.colorado.edu:59980 via local address 10.225.8.167:55714
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45640
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+couldn't connect to 10.225.8.167:59980: Connection refused
+2026/09/30 00:52:19.46 work_queue_worker[45649]notice: stopping: could not connect after 3600 seconds.
+couldn't connect to 10.225.8.167:59980: Connection refused
+2026/09/30 00:52:19.46 work_queue_worker[45644]notice: stopping: could not connect after 3600 seconds.
+2026/09/30 00:52:19.46 work_queue_worker[45642]notice: stopping: could not connect after 3600 seconds.
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45649
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45644
+disconnected from manager bgpu-shirts1.rc.int.colorado.edu:59980
+work_queue_worker: deleting workspace /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/tmp/juho8819/worker-975884-45642

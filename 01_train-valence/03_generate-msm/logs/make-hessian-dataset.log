@@ -1,0 +1,18 @@
+2026-09-29 19:58:00,983 - __main__ - INFO - Loaded 536 optimization records
+2026-09-29 19:58:06,485 - openff.qcsubmit.results.filters - INFO - 456 results were removed after applying a LowestEnergyFilter filter.
+2026-09-29 19:58:06,486 - __main__ - INFO - Kept 80 lowest-energy optimization records
+/projects/juho8819/software/anaconda/envs/sage-2.3.0-qubekit/lib/python3.12/site-packages/openff/qcsubmit/results/results.py:632: UserWarning: No singlepoint record found for driver='hessian' and molecule_id=39254469. Skipping.
+  warnings.warn(
+/projects/juho8819/software/anaconda/envs/sage-2.3.0-qubekit/lib/python3.12/site-packages/openff/qcsubmit/results/results.py:632: UserWarning: No singlepoint record found for driver='hessian' and molecule_id=39244448. Skipping.
+  warnings.warn(
+/projects/juho8819/software/anaconda/envs/sage-2.3.0-qubekit/lib/python3.12/site-packages/openff/qcsubmit/results/results.py:632: UserWarning: No singlepoint record found for driver='hessian' and molecule_id=123799013. Skipping.
+  warnings.warn(
+/projects/juho8819/software/anaconda/envs/sage-2.3.0-qubekit/lib/python3.12/site-packages/openff/qcsubmit/results/results.py:632: UserWarning: No singlepoint record found for driver='hessian' and molecule_id=123527181. Skipping.
+  warnings.warn(
+/projects/juho8819/software/anaconda/envs/sage-2.3.0-qubekit/lib/python3.12/site-packages/openff/qcsubmit/results/results.py:632: UserWarning: No singlepoint record found for driver='hessian' and molecule_id=124372115. Skipping.
+  warnings.warn(
+/projects/juho8819/software/anaconda/envs/sage-2.3.0-qubekit/lib/python3.12/site-packages/openff/qcsubmit/results/results.py:632: UserWarning: No singlepoint record found for driver='hessian' and molecule_id=124183379. Skipping.
+  warnings.warn(
+2026-09-29 19:58:08,525 - __main__ - INFO - Found 74 Hessian records
+2026-09-29 19:58:08,526 - __main__ - INFO - Found 74 Hessian molecules
+2026-09-29 19:58:08,528 - __main__ - INFO - Wrote Hessian dataset to qm-data/hessian-data/hessian_results.json

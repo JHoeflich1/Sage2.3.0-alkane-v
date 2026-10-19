@@ -1,0 +1,249 @@
+{
+  "entries": {
+    "https://api.qcarchive.molssi.org:443/": [
+      {
+        "type": "torsion",
+        "record_id": 137755468,
+        "cmiles": "[H:15]/[C:5](=[C:4](/[H:14])\\[C:3]([H:12])([H:13])[C:2]([H:10])([H:11])[C:1]([H:7])([H:8])[H:9])/[C:6]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755493,
+        "cmiles": "[H:15]/[C:5](=[C:4](\\[H:14])/[C:3]([H:12])([H:13])[C:2]([H:10])([H:11])[C:1]([H:7])([H:8])[H:9])/[C:6]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755351,
+        "cmiles": "[H:12]/[C:4](=[C:3](/[H:11])\\[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])/[C:5]([H:13])([H:14])[H:15]",
+        "inchi_key": "QMMOXUPEWRXHJS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755480,
+        "cmiles": "[H:12]/[C:4](=[C:3](\\[H:11])/[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])/[C:5]([H:13])([H:14])[H:15]",
+        "inchi_key": "QMMOXUPEWRXHJS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755383,
+        "cmiles": "[H:8][C:1]([H:9])([H:10])[C:2]([H:11])([H:12])[C:3]([H:13])([H:14])[C:4]([H:15])([H:16])[C:5]([H:17])([H:18])[C:6]([H:19])([H:20])[C:7]([H:21])([H:22])[H:23]",
+        "inchi_key": "IMNFDUFMRHMDMM-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755355,
+        "cmiles": "[H:7][C:1]([H:8])([H:9])[C:2]([H:10])([H:11])[C:3]([H:12])([H:13])[C:4]([H:14])([H:15])[C:5]([H:16])([H:17])[C:6]([H:18])([H:19])[H:20]",
+        "inchi_key": "VLKZOEOYAKHREP-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755344,
+        "cmiles": "[H:6][C:1]([H:7])([H:8])[C:2]([H:9])([H:10])[C:3]([H:11])([H:12])[C:4]([H:13])([H:14])[C:5]([H:15])([H:16])[H:17]",
+        "inchi_key": "OFBQJSOFQDEBGM-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755366,
+        "cmiles": "[H:14][C:5](=[C:4]([H:13])[C:3]([H:11])([H:12])[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])[H:15]",
+        "inchi_key": "YWAKXRMUMFPDSH-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755381,
+        "cmiles": "[H:8][C:1]([H:9])([H:10])[C:2]([H:11])([H:12])[C:3]([H:13])([H:14])[C:4]([H:15])([H:16])[C:5]([H:17])([H:18])[C:6]([H:19])([H:20])[C:7]([H:21])([H:22])[H:23]",
+        "inchi_key": "IMNFDUFMRHMDMM-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755352,
+        "cmiles": "[H:7][C:1]([H:8])([H:9])[C:2]([H:10])([H:11])[C:3]([H:12])([H:13])[C:4]([H:14])([H:15])[C:5]([H:16])([H:17])[C:6]([H:18])([H:19])[H:20]",
+        "inchi_key": "VLKZOEOYAKHREP-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755343,
+        "cmiles": "[H:6][C:1]([H:7])([H:8])[C:2]([H:9])([H:10])[C:3]([H:11])([H:12])[C:4]([H:13])([H:14])[C:5]([H:15])([H:16])[H:17]",
+        "inchi_key": "OFBQJSOFQDEBGM-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755465,
+        "cmiles": "[H:15]/[C:5](=[C:4](/[H:14])\\[C:3]([H:12])([H:13])[C:2]([H:10])([H:11])[C:1]([H:7])([H:8])[H:9])/[C:6]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755490,
+        "cmiles": "[H:15]/[C:5](=[C:4](\\[H:14])/[C:3]([H:12])([H:13])[C:2]([H:10])([H:11])[C:1]([H:7])([H:8])[H:9])/[C:6]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755364,
+        "cmiles": "[H:14][C:5](=[C:4]([H:13])[C:3]([H:11])([H:12])[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])[H:15]",
+        "inchi_key": "YWAKXRMUMFPDSH-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755454,
+        "cmiles": "[H:12]/[C:4](=[C:3](/[H:11])\\[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])/[C:5]([H:13])([H:14])[H:15]",
+        "inchi_key": "QMMOXUPEWRXHJS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755479,
+        "cmiles": "[H:12]/[C:4](=[C:3](\\[H:11])/[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])/[C:5]([H:13])([H:14])[H:15]",
+        "inchi_key": "QMMOXUPEWRXHJS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755349,
+        "cmiles": "[H:12]/[C:4](=[C:3](/[H:11])\\[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])/[C:5]([H:13])([H:14])[H:15]",
+        "inchi_key": "QMMOXUPEWRXHJS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755357,
+        "cmiles": "[H:12]/[C:4](=[C:3](\\[H:11])/[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])/[C:5]([H:13])([H:14])[H:15]",
+        "inchi_key": "QMMOXUPEWRXHJS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755464,
+        "cmiles": "[H:15]/[C:5](=[C:4](/[H:14])\\[C:3]([H:12])([H:13])[C:2]([H:10])([H:11])[C:1]([H:7])([H:8])[H:9])/[C:6]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755489,
+        "cmiles": "[H:15]/[C:5](=[C:4](\\[H:14])/[C:3]([H:12])([H:13])[C:2]([H:10])([H:11])[C:1]([H:7])([H:8])[H:9])/[C:6]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755425,
+        "cmiles": "[H:14][C:5](=[C:4]([H:13])[C:3]([H:11])([H:12])[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])[H:15]",
+        "inchi_key": "YWAKXRMUMFPDSH-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755466,
+        "cmiles": "[H:15]/[C:5](=[C:4](/[H:14])\\[C:3]([H:12])([H:13])[C:2]([H:10])([H:11])[C:1]([H:7])([H:8])[H:9])/[C:6]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755491,
+        "cmiles": "[H:15]/[C:5](=[C:4](\\[H:14])/[C:3]([H:12])([H:13])[C:2]([H:10])([H:11])[C:1]([H:7])([H:8])[H:9])/[C:6]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755365,
+        "cmiles": "[H:14][C:5](=[C:4]([H:13])[C:3]([H:11])([H:12])[C:2]([H:9])([H:10])[C:1]([H:6])([H:7])[H:8])[H:15]",
+        "inchi_key": "YWAKXRMUMFPDSH-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755382,
+        "cmiles": "[H:8][C:1]([H:9])([H:10])[C:2]([H:11])([H:12])[C:3]([H:13])([H:14])[C:4]([H:15])([H:16])[C:5]([H:17])([H:18])[C:6]([H:19])([H:20])[C:7]([H:21])([H:22])[H:23]",
+        "inchi_key": "IMNFDUFMRHMDMM-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 137755354,
+        "cmiles": "[H:7][C:1]([H:8])([H:9])[C:2]([H:10])([H:11])[C:3]([H:12])([H:13])[C:4]([H:14])([H:15])[C:5]([H:16])([H:17])[C:6]([H:18])([H:19])[H:20]",
+        "inchi_key": "VLKZOEOYAKHREP-UHFFFAOYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 146649990,
+        "cmiles": "[H:1]/[C:2](=[C:3](\\[H:4])/[C:5]([H:6])([H:7])[C:8]([H:9])([H:10])[C:11]([H:12])([H:13])[C:14]([H:15])([H:16])[C:17]([H:18])([H:19])[C:20]([H:21])([H:22])[C:23]([H:24])([H:25])[H:26])/[C:27]([H:28])([H:29])[C:30]([H:31])([H:32])[C:33]([H:34])([H:35])[C:36]([H:37])([H:38])[C:39]([H:40])([H:41])[C:42]([H:43])([H:44])[H:45]",
+        "inchi_key": "ZXFYKYSBFXNVIG-SQFISAMPNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 146649987,
+        "cmiles": "[H:1]/[C:2](=[C:3](\\[H:4])/[C:5]([H:6])([H:7])[C:8]([H:9])([H:10])[C:11]([H:12])([H:13])[C:14]([H:15])([H:16])[C:17]([H:18])([H:19])[H:20])/[C:21]([H:22])([H:23])[C:24]([H:25])([H:26])[C:27]([H:28])([H:29])[C:30]([H:31])([H:32])[H:33]",
+        "inchi_key": "NGCRXXLKJAAUQQ-LUAWRHEFNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 146649928,
+        "cmiles": "[H:1]/[C:2](=[C:3](/[H:4])\\[C:5]([H:6])([H:7])[C:8]([H:9])([H:10])[C:11]([H:12])([H:13])[H:14])/[C:15]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 146649984,
+        "cmiles": "[H:1]/[C:2](=[C:3](\\[H:4])/[C:5]([H:6])([H:7])[C:8]([H:9])([H:10])[C:11]([H:12])([H:13])[H:14])/[C:15]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 146649991,
+        "cmiles": "[H:1]/[C:2](=[C:3](\\[H:4])/[C:5]([H:6])([H:7])[C:8]([H:9])([H:10])[C:11]([H:12])([H:13])[C:14]([H:15])([H:16])[C:17]([H:18])([H:19])[C:20]([H:21])([H:22])[C:23]([H:24])([H:25])[H:26])/[C:27]([H:28])([H:29])[C:30]([H:31])([H:32])[C:33]([H:34])([H:35])[C:36]([H:37])([H:38])[C:39]([H:40])([H:41])[C:42]([H:43])([H:44])[H:45]",
+        "inchi_key": "ZXFYKYSBFXNVIG-SQFISAMPNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 146649988,
+        "cmiles": "[H:1]/[C:2](=[C:3](\\[H:4])/[C:5]([H:6])([H:7])[C:8]([H:9])([H:10])[C:11]([H:12])([H:13])[C:14]([H:15])([H:16])[C:17]([H:18])([H:19])[H:20])/[C:21]([H:22])([H:23])[C:24]([H:25])([H:26])[C:27]([H:28])([H:29])[C:30]([H:31])([H:32])[H:33]",
+        "inchi_key": "NGCRXXLKJAAUQQ-LUAWRHEFNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 146649929,
+        "cmiles": "[H:1]/[C:2](=[C:3](/[H:4])\\[C:5]([H:6])([H:7])[C:8]([H:9])([H:10])[C:11]([H:12])([H:13])[H:14])/[C:15]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HWKANZRONA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 146649985,
+        "cmiles": "[H:1]/[C:2](=[C:3](\\[H:4])/[C:5]([H:6])([H:7])[C:8]([H:9])([H:10])[C:11]([H:12])([H:13])[H:14])/[C:15]([H:16])([H:17])[H:18]",
+        "inchi_key": "RYPKRALMXUUNKS-HYXAFXHYNA-N"
+      },
+      {
+        "type": "torsion",
+        "record_id": 150595353,
+        "cmiles": "[C:1]([C:2]([C:3](/[C:4](=[C:5](\\[C:6]([H:16])([H:17])[H:18])[H:15])[H:14])([H:12])[H:13])([H:10])[H:11])([H:7])([H:8])[H:9]",
+        "inchi_key": "RYPKRALMXUUNKS-HYXAFXHYNA-N"
+      }
+    ]
+  },
+  "provenance": {
+    "applied-filters": {
+      "HydrogenBondFilter-0": {
+        "method": "baker-hubbard"
+      },
+      "RecordStatusFilter-1": {
+        "status": "complete"
+      },
+      "ConnectivityFilter-2": {
+        "tolerance": 1.2
+      },
+      "UnperceivableStereoFilter-3": {
+        "toolkits": [
+          "openeye",
+          "rdkit"
+        ]
+      },
+      "ElementFilter-4": {
+        "allowed_elements": [
+          "H",
+          "C",
+          "N",
+          "O",
+          "S",
+          "P",
+          "F",
+          "Cl",
+          "Br"
+        ]
+      }
+    }
+  },
+  "type": "TorsionDriveResultCollection"
+}

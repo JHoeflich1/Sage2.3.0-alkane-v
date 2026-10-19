@@ -1,0 +1,12 @@
+2026-10-09 16:48:50,504 - __main__ - INFO - Found 74 hessian calculations
+2026-10-09 16:48:50,504 - __main__ - INFO - Found 74 hessian molecules
+2026-10-09 16:48:55,450 - __main__ - INFO - Loaded 74 records and molecules
+2026-10-09 16:48:55,450 - __main__ - INFO - Filtered to 14 complete records and molecules
+2026-10-09 16:48:55,450 - __main__ - INFO - Working with 14 records and molecules
+Processing batches:   0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:08<01:52,  8.67s/it][A
+ 43%|████▎     | 6/14 [00:08<00:08,  1.09s/it][A
+ 64%|██████▍   | 9/14 [00:08<00:03,  1.57it/s][A100%|██████████| 14/14 [00:08<00:00,  1.56it/s]
+2026-10-09 16:49:10,763 - __main__ - INFO - Wrote 614 results to msm-data/batch-0000.parquet
+Processing batches: 100%|██████████| 1/1 [00:14<00:00, 14.99s/it]Processing batches: 100%|██████████| 1/1 [00:14<00:00, 14.99s/it]

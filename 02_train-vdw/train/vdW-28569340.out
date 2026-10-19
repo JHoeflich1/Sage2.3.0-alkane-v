@@ -1,0 +1,1337 @@
+Fri Oct  2 17:07:00 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:17:00.0 Off |                    0 |
+|  0%   26C    P8             21W /  300W |       1MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+{
+  "runtime_imports": "passed",
+  "packmol": "/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/bin/packmol"
+}
+{
+  "model": "openff-gnn-am1bcc-1.0.0.pt",
+  "molecules": [
+    {
+      "smiles": "C/C=C\\CC",
+      "atoms": 15,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "C/C=C\\CCC",
+      "atoms": 18,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "C/C=C\\CCCC",
+      "atoms": 21,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CC/C=C\\CC",
+      "atoms": 18,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CC/C=C\\CCC",
+      "atoms": 21,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCC",
+      "atoms": 17,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCC",
+      "atoms": 20,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCC",
+      "atoms": 23,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCCC",
+      "atoms": 26,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCCCC",
+      "atoms": 29,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCCCCC",
+      "atoms": 32,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCCCCCC",
+      "atoms": 35,
+      "max_charge_error_e": 0.0
+    }
+  ]
+}
+Evaluator task ASHGC preflight: {
+  "model": "openff-gnn-am1bcc-1.0.0.pt",
+  "molecules": [
+    {
+      "smiles": "C/C=C\\CC",
+      "atoms": 15,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "C/C=C\\CCC",
+      "atoms": 18,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "C/C=C\\CCCC",
+      "atoms": 21,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CC/C=C\\CC",
+      "atoms": 18,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CC/C=C\\CCC",
+      "atoms": 21,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCC",
+      "atoms": 17,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCC",
+      "atoms": 20,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCC",
+      "atoms": 23,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCCC",
+      "atoms": 26,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCCCC",
+      "atoms": 29,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCCCCC",
+      "atoms": 32,
+      "max_charge_error_e": 0.0
+    },
+    {
+      "smiles": "CCCCCCCCCCC",
+      "atoms": 35,
+      "max_charge_error_e": 0.0
+    }
+  ]
+}
+Evaluator server and ForceBalance client port: 8001
+Starting ForceBalance: --continue optimize.in
+#======================================================================#
+#| [1m            Welcome to ForceBalance version 1.9.6! =D             [0m |#
+#| [1m                 Force Field Optimization System                  [0m |#
+#| [1m                                                                  [0m |#
+#| [1m                             Authors:                             [0m |#
+#| [1m                          Lee-Ping Wang                           [0m |#
+#| [1m                  Yudong Qiu, Keri A. McKiernan                   [0m |#
+#| [1m          Jeffrey R. Wagner, Hyesu Jang, Simon Boothroyd          [0m |#
+#| [1m          Arthur Vigil, Erik G. Brandt, John Stoppelman           [0m |#
+#| [1m                  Johnny Israeli, Matt Thompson                   [0m |#
+#======================================================================#
+
+                          [44m     [0m                                        
+                       [44m        [0m      [43m     [0m                              
+                    [44m        [0m   [44m  [0m    [43m         [0m                          
+                 [44m       [0m    [44m      [0m      [43m         [0m                       
+             [44m        [0m    [44m        [0m          [43m         [0m                    
+          [44m        [0m    [44m        [0m                 [43m        [0m                 
+       [44m        [0m    [44m       [0m                        [43m        [0m              
+    [44m        [0m   [44m        [0m                              [43m         [0m          
+   [44m      [0m   [44m        [0m               `.:+@@###@'          [43m         [0m       
+    [44m [0m    [44m        [0m          ,;'+###############.             [43m     [0m       
+      [44m        [0m         +################':`                    [43m [0m        
+      [44m     [0m              `.,,...####+.                                  
+                                ,#####      +##.               [44m   [0m   [44m   [0m
+ [43m    [0m                            #####      ######             [44m   [0m   [44m   [0m
+ [43m    [0m                ###'        ####'     :#####'             [44m   [0m   [44m   [0m
+ [43m    [0m                :####@      ####.    ,####'               [44m   [0m   [44m   [0m
+ [43m    [0m                 ######     ####    +###+                 [44m   [0m   [44m   [0m
+ [43m    [0m                  #####     ####   ###;                   [44m   [0m   [44m   [0m
+ [43m    [0m                   :##      ####  ++`                     [44m   [0m   [44m   [0m
+ [43m    [0m                            ####``..:;+##############+`   [44m   [0m   [44m   [0m
+ [43m    [0m             .,:;;'++##################################`  [44m   [0m   [44m   [0m
+ [43m    [0m    `############################++++''';;;;;;;;;;;'';    [44m   [0m   [44m   [0m
+ [43m    [0m      ,########':,.``       ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+      [44m    [0m                       ####                                   
+     [44m        [0m                    ####                                   
+    [44m [0m    [44m       [0m                 ####                       [43m     [0m       
+   [44m     [0m    [44m        [0m             ####                    [43m        [0m       
+   [44m        [0m    [44m        [0m          ###                  [43m         [0m         
+      [44m        [0m    [44m        [0m        +`               [43m        [0m             
+          [44m        [0m   [44m        [0m                   [43m        [0m                
+             [44m        [0m   [44m         [0m           [43m         [0m                   
+                [44m        [0m    [44m       [0m      [43m         [0m                      
+                   [44m        [0m    [44m   [0m    [43m        [0m                          
+                      [44m        [0m       [43m      [0m                             
+                          [44m      [0m      [43m  [0m                                
+                             [44m  [0m                                         
+
+Reading options from file: optimize.in
+#========================================================#
+#| [95m  Options at their default values are not printed   [0m |#
+#| [95m        Use 'verbose_options True' to Enable        [0m |#
+#========================================================#
+Reading force field from file: force_field_tagged.offxml
+#=========================================================#
+#| [92m Starting parameter indices, physical values and IDs [0m |#
+#=========================================================#
+   0 [  1.3366e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  1.4951e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  1.5975e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  1.4791e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  1.0332e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  1.9582e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  1.2057e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.9014e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+-----------------------------------------------------------
+#=========================================================#
+#| [91m Rescaling Factors by Type (Lower Takes Precedence): [0m |#
+#=========================================================#
+   vdW/Atom/epsilon                     : 1.00000e-01
+   vdW/Atom/rmin_half                   : 1.00000e+00
+-----------------------------------------------------------
+#========================================================#
+#| [91m   Rescaling Types / Factors by Parameter Number:   [0m |#
+#========================================================#
+   0 [    vdW/Atom/epsilon              : 1.00000e-01 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [    vdW/Atom/rmin_half            : 1.00000e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [    vdW/Atom/epsilon              : 1.00000e-01 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [    vdW/Atom/rmin_half            : 1.00000e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [    vdW/Atom/epsilon              : 1.00000e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [    vdW/Atom/rmin_half            : 1.00000e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [    vdW/Atom/epsilon              : 1.00000e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [    vdW/Atom/rmin_half            : 1.00000e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [92m               Setup for force field                [0m |#
+#========================================================#
+fnms                      ['force_field_tagged.offxml'] 
+priors                    OrderedDict([('vdW/Atom/epsilon', 0.1), ('vdW/Atom/rmin_half', 1.0)]) 
+----------------------------------------------------------
+targets/pure_data/options.json
+#========================================================#
+#| [92m             Loaded experimental data.              [0m |#
+#========================================================#
+#========================================================#
+#| [92m     Reference CCCCCCCCC{solv}{x=1.000000} data     [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 713.8999999999999 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 46.55 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m     Reference C/C=C\CCC{solv}{x=1.000000} data     [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 682.52 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 32.19378272 kilojoule / mole+/-0.26606432 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m       Reference CCCCC{solv}{x=1.000000} data       [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 621.14 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 26.42 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m      Reference CCCCCC{solv}{x=1.000000} data       [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 654.9199999999998 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 31.52 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m     Reference CCCCCCCC{solv}{x=1.000000} data      [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 698.6199999999999 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 41.56 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m    Reference CCCCCCCCCCC{solv}{x=1.000000} data    [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 736.8999999999999 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 56.58 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m    Reference C/C=C\CCCC{solv}{x=1.000000} data     [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 702.8 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 36.25957811 kilojoule / mole+/-0.14966118 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m      Reference CCCCCCC{solv}{x=1.000000} data      [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 679.7499999999999 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 36.57 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m     Reference C/C=C\CC{solv}{x=1.000000} data      [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 651.0 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 26.86418181 kilojoule / mole+/-0.0831451 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m    Reference CCCCCCCCCC{solv}{x=1.000000} data     [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 726.275 kilogram / meter ** 3+/-0.10606601717796998 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 51.42 kilojoule / mole+/-0.0 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m     Reference CC/C=C\CC{solv}{x=1.000000} data     [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 675.2199999999999 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 31.22929956 kilojoule / mole+/-0.04988706 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m    Reference CC/C=C\CCC{solv}{x=1.000000} data     [0m |#
+#========================================================#
+Density 298.15 kelvin-1.0 standard_atmosphere 698.4999999999999 kilogram / meter ** 3+/-0.0 kilogram / meter ** 3 
+EnthalpyOfVaporization 298.15 kelvin-1.0 standard_atmosphere 35.81059457 kilojoule / mole+/-0.06651608 kilojoule / mole 
+----------------------------------------------------------
+#========================================================#
+#| [92m            Setup for target pure_data :            [0m |#
+#========================================================#
+name                      pure_data 
+type                      EVALUATOR_SMIRNOFF 
+tgtdir                    targets/pure_data 
+evaluator_input           options.json 
+----------------------------------------------------------
+#========================================================#
+#| [92m        SMIRNOFF Parameter Coverage Analysis        [0m |#
+#========================================================#
+Force field assignment data written to /gpfs/alpine1/scratch/juho8819/OpenFFLipidPaper/FFTraining/final-sage-refit/02_train-vdw/smirnoff_parameter_assignments.json
+ idx Parameter                                                                                                   Count
+----------------------------------------------------------------------------------------------------------------------
+   0 vdW/Atom/epsilon/[#1:1]-[#6X4]                                                                       :          0
+   1 vdW/Atom/rmin_half/[#1:1]-[#6X4]                                                                     :          0
+   2 vdW/Atom/epsilon/[#1:1]-[#6X3]                                                                       :          0
+   3 vdW/Atom/rmin_half/[#1:1]-[#6X3]                                                                     :          0
+   4 vdW/Atom/epsilon/[#6:1]                                                                              :          0
+   5 vdW/Atom/rmin_half/[#6:1]                                                                            :          0
+   6 vdW/Atom/epsilon/[#6X4:1]                                                                            :          0
+   7 vdW/Atom/rmin_half/[#6X4:1]                                                                          :          0
+SMIRNOFF Parameter Coverage Analysis result: 0/8 parameters are covered.
+----------------------------------------------------------------------------------------------------------------------
+Using parabolic regularization (Gaussian prior) with strength 1.0e+00 (+), 0.0e+00 (x)
+#========================================================#
+#| [92m           Setup for objective function :           [0m |#
+#========================================================#
+penalty_additive          1.0 
+normalize_weights         False 
+----------------------------------------------------------
+Reading options from file: optimize.sav
+#========================================================#
+#| [95m  Options at their default values are not printed   [0m |#
+#| [95m        Use 'verbose_options True' to Enable        [0m |#
+#========================================================#
+#========================================================#
+#| [94m     Continuing optimization from iteration 11      [0m |#
+#| [94m      These targets will load data from disk:       [0m |#
+#| [94m                                                    [0m |#
+#========================================================#
+#========================================================#
+#| [92m                Setup for optimizer                 [0m |#
+#========================================================#
+jobtype                   OPTIMIZE 
+trust0                    0.25 
+mintrust                  0.05 
+eps                       0.01 
+convergence_objective     0.1 
+convergence_step          0.015 
+convergence_gradient      0.1 
+maxstep                   30 
+adapt_fac                 0.2 
+adapt_damp                1.0 
+print_hess                True 
+err_tol                   1.0 
+input_file                optimize.in 
+criteria                  2 
+----------------------------------------------------------
+Calculation started at 2026-10-02 05:11 PM
+#========================================================#
+#| [1m                  Main Optimizer                    [0m |#
+#| [1m   Newton-Raphson Method (Adaptive Trust Radius)    [0m |#
+#| [1m                                                    [0m |#
+#| [1m       [0mConvergence criteria (2 of 3 needed):        [0m |#
+#| [1m          [0mObjective Function  : 1.000e-01           [0m |#
+#| [1m          [0mNorm of Gradient    : 1.000e-01           [0m |#
+#| [1m          [0mParameter step size : 1.500e-02           [0m |#
+#========================================================#
+#========================================================#
+#|       Color Key for Objective Function -=X2=-        |#
+#|  [1mBold[0m = Initial step                                 |#
+#|  [92mGreen = Current lowest value of objective function[0m  |#
+#|  [91mRed = Objective function rises, step rejected[0m       |#
+#|  [0mNo color = Not at the lowest value                  |#
+#========================================================#
+#========================================================#
+#| [94m    Iteration 11: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Requesting the estimation of 24 properties, and their gradients with respect to 8 parameters.
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+
+24 properties were estimated using the SimulationLayer layer.
+
+
+#=============================================================================================================#
+#| [1;94m                                            pure_data Density                                            [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}   702.800        702.806 +- 0.264     0.006   0.08333  30.00000   0.00000  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}   682.520        678.945 +- 0.250    -3.575   0.08333  30.00000   0.00118  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}   651.000        647.606 +- 0.279    -3.394   0.08333  30.00000   0.00107  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}   698.500        700.544 +- 0.237     2.044   0.08333  30.00000   0.00039  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}   675.220        676.778 +- 0.274     1.558   0.08333  30.00000   0.00022  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}   736.900        740.325 +- 0.170     3.425   0.08333  30.00000   0.00109  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}   726.275        729.081 +- 0.196     2.806   0.08333  30.00000   0.00073  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}   713.900        715.863 +- 0.170     1.963   0.08333  30.00000   0.00036  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}   698.620        698.874 +- 0.201     0.254   0.08333  30.00000   0.00001  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}   679.750        678.189 +- 0.223    -1.561   0.08333  30.00000   0.00023  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}   654.920        650.962 +- 0.270    -3.958   0.08333  30.00000   0.00145  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}   621.140        613.608 +- 0.284    -7.532   0.08333  30.00000   0.00525  
+---------------------------------------------------------------------------------------------------------------
+
+#=============================================================================================================#
+#| [1;94m                                    pure_data EnthalpyOfVaporization                                     [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}    36.260         37.180 +- 0.352     0.920   0.08333   3.00000   0.00784  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}    32.194         31.987 +- 0.237    -0.207   0.08333   3.00000   0.00040  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}    26.864         27.111 +- 0.200     0.247   0.08333   3.00000   0.00056  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}    35.811         36.523 +- 0.234     0.712   0.08333   3.00000   0.00470  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}    31.229         31.662 +- 0.311     0.433   0.08333   3.00000   0.00174  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}    56.580         57.643 +- 0.436     1.063   0.08333   3.00000   0.01045  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}    51.420         51.788 +- 0.448     0.368   0.08333   3.00000   0.00125  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}    46.550         46.687 +- 0.393     0.137   0.08333   3.00000   0.00017  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}    41.560         41.181 +- 0.413    -0.379   0.08333   3.00000   0.00133  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}    36.570         35.822 +- 0.379    -0.748   0.08333   3.00000   0.00518  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}    31.520         31.353 +- 0.383    -0.167   0.08333   3.00000   0.00026  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}    26.420         25.599 +- 0.315    -0.821   0.08333   3.00000   0.00624  
+---------------------------------------------------------------------------------------------------------------
+#====================================================================#
+#| [94m                  Objective Function Breakdown                  [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution [0m |#
+#====================================================================#
+pure_data                      0.05209      1.000 [94m     5.20920e-02[0m 
+Regularization                 0.02625      1.000 [94m     2.62543e-02[0m 
+Total                                             [94m     7.83463e-02[0m 
+----------------------------------------------------------------------
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+    11   1.620e-01   0.000e+00   3.451e+00[1m   7.83463e-02[0m   0.000e+00      0.000
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [  2.20632554e+00 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [ -4.50146974e-01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  5.31775348e-01 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [ -1.35635800e-01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  4.12614441e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  7.57042827e-01 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  7.27546423e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  2.29515617e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [94m                   Total Hessian                    [0m |#
+#========================================================#
+ 2.20882714e+03 -1.11646453e+03  1.00327555e+02 -6.82907594e+01  9.61835186e+01  1.48012575e+02  8.25702218e+02  2.41729581e+03 
+-1.11646453e+03  1.30119517e+03 -5.66750109e+01  9.09691656e+01 -7.22189561e+01 -7.91650949e+01 -5.06614426e+02 -1.34399725e+03 
+ 1.00327555e+02 -5.66750109e+01  2.30353958e+01 -1.21532766e+01  1.94649727e+01  3.08995854e+01  3.55000858e+01  9.54609683e+01 
+-6.82907594e+01  9.09691656e+01 -1.21532766e+01  2.26179093e+01 -1.58533872e+01 -1.69314593e+01 -3.01683339e+01 -7.12934581e+01 
+ 9.61835186e+01 -7.22189561e+01  1.94649727e+01 -1.58533872e+01  2.15881560e+01  2.83678033e+01  3.60691552e+01  9.36118275e+01 
+ 1.48012575e+02 -7.91650949e+01  3.08995854e+01 -1.69314593e+01  2.83678033e+01  4.87750788e+01  5.19712738e+01  1.41196631e+02 
+ 8.25702218e+02 -5.06614426e+02  3.55000858e+01 -3.01683339e+01  3.60691552e+01  5.19712738e+01  3.22482230e+02  9.23518035e+02 
+ 2.41729581e+03 -1.34399725e+03  9.54609683e+01 -7.12934581e+01  9.36118275e+01  1.41196631e+02  9.23518035e+02  2.69508025e+03 
+----------------------------------------------------------
+Calculating nonlinear optimization step
+Newton-Raphson step found (length 4.5224e-02)
+#========================================================#
+#| [95m  Mathematical Parameters (Current + Step = Next)   [0m |#
+#========================================================#
+   0 [  7.2369e-02 + 2.3637e-02 =  9.6006e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [ -4.8235e-02 - 4.9303e-03 = -5.3166e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  4.6913e-03 - 2.6216e-02 = -2.1524e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [ -2.8253e-02 + 6.0479e-04 = -2.7648e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  5.6349e-03 - 8.8088e-03 = -3.1738e-03 ] : vdW/Atom/epsilon/[#6:1]
+   5 [ -4.4381e-02 - 7.5132e-03 = -5.1894e-02 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [ -1.4267e-02 + 5.4136e-03 = -8.8531e-03 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [ -1.2516e-01 - 2.4722e-02 = -1.4988e-01 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [95m    Physical Parameters (Current + Step = Next)     [0m |#
+#========================================================#
+   0 [  2.0603e-02 + 2.3637e-03 =  2.2967e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  1.4468e+00 - 4.9303e-03 =  1.4419e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  1.6445e-02 - 2.6216e-03 =  1.3823e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  1.4508e+00 + 6.0479e-04 =  1.4514e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  1.0388e-01 - 8.8088e-04 =  1.0300e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  1.9138e+00 - 7.5132e-03 =  1.9063e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  1.1914e-01 + 5.4136e-04 =  1.1968e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.7763e+00 - 2.4722e-02 =  1.7516e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+Backing up optimize.sav -> optimize.bak/optimize_2.sav
+Input file with saved parameters: optimize.sav
+#========================================================#
+#| [94m    Iteration 12: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Requesting the estimation of 24 properties, and their gradients with respect to 8 parameters.
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+
+24 properties were estimated using the SimulationLayer layer.
+
+
+#=============================================================================================================#
+#| [1;94m                                            pure_data Density                                            [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}   702.800        702.267 +- 0.217    -0.533   0.08333  30.00000   0.00003  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}   682.520        679.158 +- 0.250    -3.362   0.08333  30.00000   0.00105  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}   651.000        646.656 +- 0.308    -4.344   0.08333  30.00000   0.00175  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}   698.500        699.541 +- 0.211     1.041   0.08333  30.00000   0.00010  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}   675.220        676.137 +- 0.262     0.917   0.08333  30.00000   0.00008  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}   736.900        739.759 +- 0.204     2.859   0.08333  30.00000   0.00076  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}   726.275        728.693 +- 0.184     2.418   0.08333  30.00000   0.00054  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}   713.900        715.563 +- 0.186     1.663   0.08333  30.00000   0.00026  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}   698.620        699.258 +- 0.216     0.638   0.08333  30.00000   0.00004  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}   679.750        678.224 +- 0.243    -1.526   0.08333  30.00000   0.00022  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}   654.920        651.308 +- 0.246    -3.612   0.08333  30.00000   0.00121  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}   621.140        614.117 +- 0.321    -7.023   0.08333  30.00000   0.00457  
+---------------------------------------------------------------------------------------------------------------
+
+#=============================================================================================================#
+#| [1;94m                                    pure_data EnthalpyOfVaporization                                     [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}    36.260         36.458 +- 0.367     0.199   0.08333   3.00000   0.00037  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}    32.194         31.333 +- 0.217    -0.861   0.08333   3.00000   0.00687  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}    26.864         26.325 +- 0.292    -0.540   0.08333   3.00000   0.00270  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}    35.811         35.420 +- 0.335    -0.390   0.08333   3.00000   0.00141  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}    31.229         31.235 +- 0.216     0.006   0.08333   3.00000   0.00000  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}    56.580         57.239 +- 0.471     0.659   0.08333   3.00000   0.00402  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}    51.420         52.593 +- 0.421     1.173   0.08333   3.00000   0.01275  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}    46.550         46.389 +- 0.407    -0.161   0.08333   3.00000   0.00024  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}    41.560         41.526 +- 0.405    -0.034   0.08333   3.00000   0.00001  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}    36.570         36.806 +- 0.369     0.236   0.08333   3.00000   0.00051  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}    31.520         30.014 +- 0.326    -1.506   0.08333   3.00000   0.02101  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}    26.420         25.902 +- 0.301    -0.518   0.08333   3.00000   0.00249  
+---------------------------------------------------------------------------------------------------------------
+#===================================================================================#
+#| [94m                         Objective Function Breakdown                          [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution (Current-Prev) [0m |#
+#===================================================================================#
+pure_data                      0.06294      1.000 [91m     6.29377e-02[0m ( +1.085e-02 ) 
+Regularization                 0.03852      1.000 [91m     3.85179e-02[0m ( +1.226e-02 ) 
+Total                                             [91m     1.01456e-01[0m ( +2.311e-02 ) 
+-------------------------------------------------------------------------------------
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+    12   1.963e-01   4.522e-02   2.703e+00[0m   1.01456e-01[0m   2.311e-02     -2.122
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [ -1.19203938e+00 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  1.70473325e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [ -5.50349871e-01 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  2.67370419e-01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [ -4.76562561e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [ -8.89176188e-01 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [ -4.96134723e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [ -1.15842336e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [94m                   Total Hessian                    [0m |#
+#========================================================#
+ 2.07818835e+03 -9.92707040e+02  8.79680022e+01 -5.64098195e+01  7.97784214e+01  1.23214584e+02  7.77037595e+02  2.39593985e+03 
+-9.92707040e+02  1.50272449e+03 -7.74318925e+01  8.47244887e+01 -8.19551636e+01 -9.50975162e+01 -4.86226109e+02 -1.31844863e+03 
+ 8.79680022e+01 -7.74318925e+01  2.46440453e+01 -1.22293183e+01  1.95423400e+01  3.10769666e+01  3.41237837e+01  9.04590244e+01 
+-5.64098195e+01  8.47244887e+01 -1.22293183e+01  1.80860263e+01 -1.41724385e+01 -1.58953230e+01 -2.58357188e+01 -6.41207836e+01 
+ 7.97784214e+01 -8.19551636e+01  1.95423400e+01 -1.41724385e+01  2.02928836e+01  2.67872325e+01  3.22607435e+01  8.40388745e+01 
+ 1.23214584e+02 -9.50975162e+01  3.10769666e+01 -1.58953230e+01  2.67872325e+01  4.69322433e+01  4.62992178e+01  1.24516784e+02 
+ 7.77037595e+02 -4.86226109e+02  3.41237837e+01 -2.58357188e+01  3.22607435e+01  4.62992178e+01  3.06374522e+02  9.20508717e+02 
+ 2.39593985e+03 -1.31844863e+03  9.04590244e+01 -6.41207836e+01  8.40388745e+01  1.24516784e+02  9.20508717e+02  2.82383563e+03 
+----------------------------------------------------------
+Low quality step, reducing trust radius to  5.0000e-02
+Calculating nonlinear optimization step
+Newton-Raphson step found (length 3.0260e-02)
+#========================================================#
+#| [95m  Mathematical Parameters (Current + Step = Next)   [0m |#
+#========================================================#
+   0 [  9.6006e-02 - 3.1093e-03 =  9.2897e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [ -5.3166e-02 - 4.9277e-04 = -5.3659e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [ -2.1524e-02 - 7.4338e-03 = -2.8958e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [ -2.7648e-02 + 1.2526e-03 = -2.6395e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [ -3.1738e-03 - 2.4206e-03 = -5.5945e-03 ] : vdW/Atom/epsilon/[#6:1]
+   5 [ -5.1894e-02 + 2.8389e-02 = -2.3505e-02 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [ -8.8531e-03 - 4.9703e-03 = -1.3823e-02 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [ -1.4988e-01 + 3.5253e-03 = -1.4636e-01 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [95m    Physical Parameters (Current + Step = Next)     [0m |#
+#========================================================#
+   0 [  2.2967e-02 - 3.1093e-04 =  2.2656e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  1.4419e+00 - 4.9277e-04 =  1.4414e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  1.3823e-02 - 7.4338e-04 =  1.3080e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  1.4514e+00 + 1.2526e-03 =  1.4527e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  1.0300e-01 - 2.4206e-04 =  1.0276e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  1.9063e+00 + 2.8389e-02 =  1.9346e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  1.1968e-01 - 4.9703e-04 =  1.1919e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.7516e+00 + 3.5253e-03 =  1.7551e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+Input file with saved parameters: optimize.sav
+#========================================================#
+#| [94m    Iteration 13: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Requesting the estimation of 24 properties, and their gradients with respect to 8 parameters.
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+
+24 properties were estimated using the SimulationLayer layer.
+
+
+#=============================================================================================================#
+#| [1;94m                                            pure_data Density                                            [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}   702.800        703.444 +- 0.204     0.644   0.08333  30.00000   0.00004  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}   682.520        680.206 +- 0.270    -2.314   0.08333  30.00000   0.00050  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}   651.000        648.241 +- 0.274    -2.759   0.08333  30.00000   0.00070  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}   698.500        700.667 +- 0.201     2.167   0.08333  30.00000   0.00043  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}   675.220        677.907 +- 0.278     2.687   0.08333  30.00000   0.00067  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}   736.900        740.261 +- 0.204     3.361   0.08333  30.00000   0.00105  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}   726.275        728.971 +- 0.187     2.696   0.08333  30.00000   0.00067  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}   713.900        716.002 +- 0.187     2.102   0.08333  30.00000   0.00041  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}   698.620        699.288 +- 0.194     0.668   0.08333  30.00000   0.00004  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}   679.750        678.782 +- 0.219    -0.968   0.08333  30.00000   0.00009  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}   654.920        651.938 +- 0.332    -2.982   0.08333  30.00000   0.00082  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}   621.140        614.418 +- 0.304    -6.722   0.08333  30.00000   0.00418  
+---------------------------------------------------------------------------------------------------------------
+
+#=============================================================================================================#
+#| [1;94m                                    pure_data EnthalpyOfVaporization                                     [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}    36.260         36.897 +- 0.255     0.638   0.08333   3.00000   0.00376  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}    32.194         31.963 +- 0.226    -0.231   0.08333   3.00000   0.00049  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}    26.864         26.832 +- 0.277    -0.032   0.08333   3.00000   0.00001  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}    35.811         36.295 +- 0.346     0.485   0.08333   3.00000   0.00217  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}    31.229         32.634 +- 0.301     1.405   0.08333   3.00000   0.01827  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}    56.580         56.766 +- 0.467     0.186   0.08333   3.00000   0.00032  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}    51.420         51.843 +- 0.425     0.423   0.08333   3.00000   0.00166  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}    46.550         46.619 +- 0.419     0.069   0.08333   3.00000   0.00004  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}    41.560         40.916 +- 0.383    -0.644   0.08333   3.00000   0.00384  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}    36.570         36.140 +- 0.275    -0.430   0.08333   3.00000   0.00172  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}    31.520         31.066 +- 0.237    -0.454   0.08333   3.00000   0.00191  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}    26.420         26.853 +- 0.329     0.433   0.08333   3.00000   0.00174  
+---------------------------------------------------------------------------------------------------------------
+#===================================================================================#
+#| [94m                         Objective Function Breakdown                          [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution (Current-Prev) [0m |#
+#===================================================================================#
+pure_data                      0.04554      1.000 [92m     4.55356e-02[0m ( -6.556e-03 ) 
+Regularization                 0.03524      1.000 [91m     3.52399e-02[0m ( +8.986e-03 ) 
+Total                                             [91m     8.07755e-02[0m ( +2.429e-03 ) 
+-------------------------------------------------------------------------------------
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+    13   1.877e-01   3.026e-02   2.507e+00[0m   8.07755e-02[0m  -2.068e-02      2.246
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [  1.44913644e+00 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [ -1.24544931e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  5.13691130e-01 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [ -1.66730749e-01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  4.09127050e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  6.88188879e-01 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  5.04836961e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.20222313e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [94m                   Total Hessian                    [0m |#
+#========================================================#
+ 1.77919063e+03 -1.00705042e+03  8.49404004e+01 -5.80575202e+01  8.00267993e+01  1.07937736e+02  6.85393871e+02  2.05070080e+03 
+-1.00705042e+03  1.48140020e+03 -5.54355554e+01  9.06540320e+01 -7.37625626e+01 -6.52535418e+01 -4.93433819e+02 -1.31650459e+03 
+ 8.49404004e+01 -5.54355554e+01  2.21252282e+01 -1.16341536e+01  1.81466012e+01  2.57416956e+01  3.09831991e+01  8.36068610e+01 
+-5.80575202e+01  9.06540320e+01 -1.16341536e+01  2.05194393e+01 -1.52880128e+01 -1.41462776e+01 -2.70610348e+01 -6.52292983e+01 
+ 8.00267993e+01 -7.37625626e+01  1.81466012e+01 -1.52880128e+01  2.03307667e+01  2.30123763e+01  3.15630210e+01  8.19229701e+01 
+ 1.07937736e+02 -6.52535418e+01  2.57416956e+01 -1.41462776e+01  2.30123763e+01  3.57606424e+01  3.86445085e+01  1.04637910e+02 
+ 6.85393871e+02 -4.93433819e+02  3.09831991e+01 -2.70610348e+01  3.15630210e+01  3.86445085e+01  2.79166209e+02  8.12783181e+02 
+ 2.05070080e+03 -1.31650459e+03  8.36068610e+01 -6.52292983e+01  8.19229701e+01  1.04637910e+02  8.12783181e+02  2.41919829e+03 
+----------------------------------------------------------
+Convergence criterion reached for objective function (1.00e-01)
+Calculating nonlinear optimization step
+Newton-Raphson step found (length 2.9375e-02)
+#========================================================#
+#| [95m  Mathematical Parameters (Current + Step = Next)   [0m |#
+#========================================================#
+   0 [  9.2897e-02 - 1.3869e-02 =  7.9028e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [ -5.3659e-02 + 4.1492e-03 = -4.9509e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [ -2.8958e-02 - 7.4257e-03 = -3.6384e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [ -2.6395e-02 - 1.5010e-02 = -4.1405e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [ -5.5945e-03 + 3.0792e-03 = -2.5153e-03 ] : vdW/Atom/epsilon/[#6:1]
+   5 [ -2.3505e-02 - 1.3568e-02 = -3.7073e-02 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [ -1.3823e-02 + 6.6702e-03 = -7.1531e-03 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [ -1.4636e-01 + 1.1611e-02 = -1.3475e-01 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [95m    Physical Parameters (Current + Step = Next)     [0m |#
+#========================================================#
+   0 [  2.2656e-02 - 1.3869e-03 =  2.1269e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  1.4414e+00 + 4.1492e-03 =  1.4456e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  1.3080e-02 - 7.4257e-04 =  1.2337e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  1.4527e+00 - 1.5010e-02 =  1.4377e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  1.0276e-01 + 3.0792e-04 =  1.0307e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  1.9346e+00 - 1.3568e-02 =  1.9211e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  1.1919e-01 + 6.6702e-04 =  1.1985e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.7551e+00 + 1.1611e-02 =  1.7667e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+Input file with saved parameters: optimize.sav
+#========================================================#
+#| [94m    Iteration 14: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Requesting the estimation of 24 properties, and their gradients with respect to 8 parameters.
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+
+24 properties were estimated using the SimulationLayer layer.
+
+
+#=============================================================================================================#
+#| [1;94m                                            pure_data Density                                            [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}   702.800        702.467 +- 0.226    -0.333   0.08333  30.00000   0.00001  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}   682.520        678.694 +- 0.252    -3.826   0.08333  30.00000   0.00136  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}   651.000        646.580 +- 0.291    -4.420   0.08333  30.00000   0.00181  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}   698.500        700.007 +- 0.253     1.507   0.08333  30.00000   0.00021  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}   675.220        675.774 +- 0.248     0.554   0.08333  30.00000   0.00003  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}   736.900        739.933 +- 0.195     3.033   0.08333  30.00000   0.00085  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}   726.275        728.372 +- 0.182     2.097   0.08333  30.00000   0.00041  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}   713.900        715.795 +- 0.246     1.895   0.08333  30.00000   0.00033  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}   698.620        698.921 +- 0.187     0.301   0.08333  30.00000   0.00001  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}   679.750        677.976 +- 0.233    -1.774   0.08333  30.00000   0.00029  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}   654.920        651.010 +- 0.264    -3.910   0.08333  30.00000   0.00142  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}   621.140        613.379 +- 0.283    -7.761   0.08333  30.00000   0.00558  
+---------------------------------------------------------------------------------------------------------------
+
+#=============================================================================================================#
+#| [1;94m                                    pure_data EnthalpyOfVaporization                                     [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}    36.260         36.299 +- 0.239     0.039   0.08333   3.00000   0.00001  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}    32.194         31.565 +- 0.220    -0.629   0.08333   3.00000   0.00367  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}    26.864         26.683 +- 0.296    -0.181   0.08333   3.00000   0.00030  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}    35.811         35.805 +- 0.245    -0.006   0.08333   3.00000   0.00000  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}    31.229         30.614 +- 0.356    -0.615   0.08333   3.00000   0.00351  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}    56.580         56.724 +- 0.452     0.144   0.08333   3.00000   0.00019  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}    51.420         51.831 +- 0.415     0.411   0.08333   3.00000   0.00157  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}    46.550         46.736 +- 0.419     0.186   0.08333   3.00000   0.00032  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}    41.560         41.301 +- 0.415    -0.259   0.08333   3.00000   0.00062  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}    36.570         36.216 +- 0.327    -0.354   0.08333   3.00000   0.00116  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}    31.520         31.318 +- 0.357    -0.202   0.08333   3.00000   0.00038  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}    26.420         25.795 +- 0.309    -0.625   0.08333   3.00000   0.00362  
+---------------------------------------------------------------------------------------------------------------
+#===================================================================================#
+#| [94m                         Objective Function Breakdown                          [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution (Current-Prev) [0m |#
+#===================================================================================#
+pure_data                      0.02764      1.000 [92m     2.76406e-02[0m ( -2.445e-02 ) 
+Regularization                 0.03132      1.000 [91m     3.13234e-02[0m ( +5.069e-03 ) 
+Total                                             [92m     5.89640e-02[0m ( -1.938e-02 ) 
+-------------------------------------------------------------------------------------
+Backing up result/optimize/force_field_tagged.offxml -> result/optimize/force_field_tagged_5.offxml
+#========================================================================#
+#|  The force field has been written to the result/optimize directory.  |#
+#|    Input file with optimization parameters saved to optimize.sav.    |#
+#========================================================================#
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+    14   1.770e-01   2.937e-02   5.771e+00[92m   5.89640e-02[0m  -2.181e-02      2.517
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [ -3.40052841e+00 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  2.43427408e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [ -5.83076142e-01 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  2.12725151e-01 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [ -4.67908945e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [ -8.18921926e-01 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [ -1.29481098e+00 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [ -3.58650325e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [94m                   Total Hessian                    [0m |#
+#========================================================#
+ 2.10367555e+03 -1.09018217e+03  1.08463957e+02 -5.12441031e+01  9.30111956e+01  1.53504853e+02  7.88987136e+02  2.37849060e+03 
+-1.09018217e+03  1.69060506e+03 -7.93219627e+01  7.33467018e+01 -8.12571132e+01 -1.03386470e+02 -5.43479394e+02 -1.41963749e+03 
+ 1.08463957e+02 -7.93219627e+01  3.02732418e+01 -1.16356914e+01  2.34173751e+01  3.89694471e+01  4.02722260e+01  1.07915902e+02 
+-5.12441031e+01  7.33467018e+01 -1.16356914e+01  1.59295774e+01 -1.33900480e+01 -1.62921473e+01 -2.27218134e+01 -5.31907498e+01 
+ 9.30111956e+01 -8.12571132e+01  2.34173751e+01 -1.33900480e+01  2.29743380e+01  3.26046186e+01  3.58625243e+01  9.31294729e+01 
+ 1.53504853e+02 -1.03386470e+02  3.89694471e+01 -1.62921473e+01  3.26046186e+01  5.74785752e+01  5.59842582e+01  1.51583925e+02 
+ 7.88987136e+02 -5.43479394e+02  4.02722260e+01 -2.27218134e+01  3.58625243e+01  5.59842582e+01  3.15117791e+02  9.20592331e+02 
+ 2.37849060e+03 -1.41963749e+03  1.07915902e+02 -5.31907498e+01  9.31294729e+01  1.51583925e+02  9.20592331e+02  2.75964914e+03 
+----------------------------------------------------------
+Convergence criterion reached for objective function (1.00e-01)
+Calculating nonlinear optimization step
+Newton-Raphson step found (length 1.3203e-02)
+Convergence criterion reached in step size (1.50e-02)
+#========================================================#
+#| [92m               [0m[1mOptimization Converged[0m               [0m |#
+#| [92m           Final objective function value           [0m |#
+#| [92m  Full:  5.896402e-02  Un-penalized:  2.764058e-02  [0m |#
+#========================================================#
+#========================================================#
+#| [94m           Final optimization parameters:           [0m |#
+#========================================================#
+   0 [  8.3249e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [ -5.0643e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [ -3.0712e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [ -3.5686e-02 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [ -4.0515e-03 ] : vdW/Atom/epsilon/[#6:1]
+   5 [ -2.8403e-02 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [ -6.8321e-03 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [ -1.3831e-01 ] : vdW/Atom/rmin_half/[#6X4:1]
+#========================================================#
+#| [94m             Final physical parameters:             [0m |#
+#========================================================#
+   0 [  2.1691e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+   1 [  1.4444e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+   2 [  1.2904e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X3]
+   3 [  1.4434e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X3]
+   4 [  1.0291e-01 ] : vdW/Atom/epsilon/[#6:1]
+   5 [  1.9298e+00 ] : vdW/Atom/rmin_half/[#6:1]
+   6 [  1.1989e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+   7 [  1.7631e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+Backing up result/optimize/force_field_tagged.offxml -> result/optimize/force_field_tagged_6.offxml
+#========================================================================#
+#|  The force field has been written to the result/optimize directory.  |#
+#|    Input file with optimization parameters saved to optimize.sav.    |#
+#========================================================================#
+Wall time since calculation start: 57648.9 seconds
+#========================================================#
+#| [1;44;93m               Calculation Finished.                [0m |#
+#| [1;44;93m     ---==(  May the Force be with you!  )==---     [0m |#
+#========================================================#

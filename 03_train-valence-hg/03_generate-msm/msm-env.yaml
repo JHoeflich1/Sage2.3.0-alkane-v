@@ -1,0 +1,29 @@
+# We use the MSM environment from the upstream openforcefield/ash-sage-rc2 repo:
+# https://github.com/openforcefield/ash-sage-rc2/blob/main/03_fit-valence/03_generate-msm/full-qubekit-env.yaml
+# Adapted for Linux/Blanca: retain upstream versions of the MSM dependencies,
+# omit macOS-only packages and platform-specific build pins, and let conda
+# resolve transitive dependencies. This is not a verbatim full environment export.
+# Create with: conda env create -f msm-env.yaml
+name: sage-2.3.0-qubekit
+channels:
+  - conda-forge
+  - openeye
+dependencies:
+  - python=3.12.9
+  - qubekit=2.1.1
+  - pydantic=1.10.19
+  - openff-toolkit=0.16.5
+  - openff-qcsubmit=0.55.0
+  - openff-units=0.2.2
+  - openff-interchange=0.3.29
+  - openff-forcefields=2024.09.0
+  - qcportal=0.60
+  - qcelemental=0.28.0
+  - qcengine=0.31.0
+  - rdkit=2025.03.1
+  - numpy=1.26.4
+  - scipy=1.15.2
+  - pandas=2.2.3
+  - pyarrow=19.0.1
+  - click=8.1.8
+  - tqdm=4.67.1

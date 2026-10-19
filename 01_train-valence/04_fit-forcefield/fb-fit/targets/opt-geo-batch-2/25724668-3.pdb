@@ -1,0 +1,12 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2026-08-19
+HETATM    1  C1  UNK A   0       0.000  -0.000   0.000  0.00  0.00           C  
+HETATM    2  H2  UNK A   0       0.532   0.751  -0.590  0.00  0.00           H  
+HETATM    3  H3  UNK A   0       0.719  -0.589   0.575  0.00  0.00           H  
+HETATM    4  H4  UNK A   0      -0.559  -0.659  -0.669  0.00  0.00           H  
+HETATM    5  H5  UNK A   0      -0.693   0.498   0.684  0.00  0.00           H  
+TER       6      UNK A   0
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1

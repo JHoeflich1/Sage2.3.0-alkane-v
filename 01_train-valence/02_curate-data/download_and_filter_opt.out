@@ -1,0 +1,30 @@
+Tue Sep 29 19:15:15 MDT 2026
+bgpu-shirts3.rc.int.colorado.edu
+Loading dataset from output/optimization-training-set-full-alkane-ene.json
+Saved filtered dataset to output/optimization-training-set.json
+Final coverage from main code
+    t2:  332 /  332 records
+    a1:  523 /  523 records
+    t4:  418 /  418 records
+    t3:  501 /  501 records
+    b1:  502 /  502 records
+    a2:  526 /  526 records
+   b84:  526 /  526 records
+   t46:  303 /  303 records
+   a10:  406 /  406 records
+    b6:  406 /  406 records
+   a11:  406 /  406 records
+   t20:  395 /  395 records
+   t17:  396 /  396 records
+   t45:  406 /  406 records
+   b85:  406 /  406 records
+    i1:  406 /  406 records
+    b2:  396 /  396 records
+   t43:  139 /  139 records
+    b4:  139 /  139 records
+   a12:  172 /  172 records
+   t18:  375 /  375 records
+    t1:  375 /  375 records
+   t21:  101 /  101 records
+Wrote parameter SMIRKS and counts to output/training-valence-smirks.json
+Tue Sep 29 19:22:27 MDT 2026

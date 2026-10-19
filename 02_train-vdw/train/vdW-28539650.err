@@ -1,0 +1,162 @@
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/forcebalance/molecule.py:20: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/forcebalance/molecule.py:20: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/forcebalance/molecule.py:20: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/distributed/node.py:182: UserWarning: Port 8787 is already in use.
+Perhaps you already have a cluster running?
+Hosting the HTTP server on port 40871 instead
+  warnings.warn(
+2026-09-30 11:10:10,773 - distributed.utils_perf - WARNING - full garbage collections took 42% CPU time recently (threshold: 10%)
+2026-09-30 11:10:11,870 - distributed.utils_perf - WARNING - full garbage collections took 42% CPU time recently (threshold: 10%)
+2026-09-30 11:10:13,350 - distributed.utils_perf - WARNING - full garbage collections took 41% CPU time recently (threshold: 10%)
+2026-09-30 11:10:14,703 - distributed.utils_perf - WARNING - full garbage collections took 42% CPU time recently (threshold: 10%)
+2026-09-30 11:10:15,801 - distributed.utils_perf - WARNING - full garbage collections took 42% CPU time recently (threshold: 10%)
+2026-09-30 11:10:17,193 - distributed.utils_perf - WARNING - full garbage collections took 41% CPU time recently (threshold: 10%)
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/forcebalance/molecule.py:20: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")
+/projects/juho8819/software/anaconda/envs/sage-lipid-ashgc-vdw/lib/python3.11/site-packages/uncertainties/core.py:1024: UserWarning: Using UFloat objects with std_dev==0 may give unexpected results.
+  warn("Using UFloat objects with std_dev==0 may give unexpected results.")

@@ -1,0 +1,33 @@
+{
+    "connection_options": {
+        "server_address": "localhost",
+        "server_port": 8001
+    },
+    "data_set_path": "training_set.json",
+    "denominators": {
+        "Density": {
+            "@type": "openff.evaluator.unit.Quantity",
+            "unit": "kilogram / meter ** 3",
+            "value": 30.0
+        },
+        "EnthalpyOfVaporization": {
+            "@type": "openff.evaluator.unit.Quantity",
+            "unit": "kilojoule / mole",
+            "value": 3.0
+        }
+    },
+    "estimation_options": {
+        "batch_mode": {
+            "@type": "openff.evaluator.client.client.BatchMode",
+            "value": "SharedComponents"
+        },
+        "calculation_layers": [
+            "SimulationLayer"
+        ]
+    },
+    "polling_interval": 600,
+    "weights": {
+        "Density": 1.0,
+        "EnthalpyOfVaporization": 1.0
+    }
+}

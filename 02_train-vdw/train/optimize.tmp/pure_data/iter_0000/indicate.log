@@ -1,0 +1,34 @@
+#=============================================================================================================#
+#| [1;94m                                    pure_data EnthalpyOfVaporization                                     [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}    36.260         39.779 +- 0.353     3.520   0.08333   3.00000   0.11472  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}    32.194         33.909 +- 0.309     1.716   0.08333   3.00000   0.02725  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}    26.864         28.097 +- 0.182     1.233   0.08333   3.00000   0.01408  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}    35.811         38.871 +- 0.247     3.061   0.08333   3.00000   0.08674  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}    31.229         33.294 +- 0.233     2.065   0.08333   3.00000   0.03949  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}    56.580         63.838 +- 0.485     7.258   0.08333   3.00000   0.48776  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}    51.420         58.475 +- 0.308     7.055   0.08333   3.00000   0.46084  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}    46.550         52.042 +- 0.417     5.492   0.08333   3.00000   0.27931  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}    41.560         46.245 +- 0.402     4.685   0.08333   3.00000   0.20324  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}    36.570         39.695 +- 0.335     3.125   0.08333   3.00000   0.09040  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}    31.520         34.235 +- 0.342     2.715   0.08333   3.00000   0.06823  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}    26.420         28.164 +- 0.334     1.744   0.08333   3.00000   0.02816  
+---------------------------------------------------------------------------------------------------------------
+#=============================================================================================================#
+#| [1;94m                                            pure_data Density                                            [0m |#
+#| [1;94m Temperature  Pressure Substance  Reference  Calculated +- Stdev     Delta    Weight    Denom     Term   [0m |#
+#=============================================================================================================#
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCCC{solv}{x=1.000000}   702.800        689.993 +- 0.213   -12.807   0.08333  30.00000   0.01519  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CCC{solv}{x=1.000000}   682.520        664.881 +- 0.215   -17.639   0.08333  30.00000   0.02881  
+  298.15 kelvin 1.0 standard_atmosphere C/C=C\CC{solv}{x=1.000000}   651.000        631.289 +- 0.273   -19.711   0.08333  30.00000   0.03598  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CCC{solv}{x=1.000000}   698.500        688.068 +- 0.212   -10.432   0.08333  30.00000   0.01008  
+  298.15 kelvin 1.0 standard_atmosphere CC/C=C\CC{solv}{x=1.000000}   675.220        663.113 +- 0.228   -12.107   0.08333  30.00000   0.01357  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCCC{solv}{x=1.000000}   736.900        736.564 +- 0.175    -0.336   0.08333  30.00000   0.00001  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCCC{solv}{x=1.000000}   726.275        725.105 +- 0.162    -1.170   0.08333  30.00000   0.00013  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCCC{solv}{x=1.000000}   713.900        711.213 +- 0.175    -2.687   0.08333  30.00000   0.00067  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCCC{solv}{x=1.000000}   698.620        695.181 +- 0.205    -3.439   0.08333  30.00000   0.00109  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCCC{solv}{x=1.000000}   679.750        674.332 +- 0.252    -5.418   0.08333  30.00000   0.00272  
+  298.15 kelvin 1.0 standard_atmosphere CCCCCC{solv}{x=1.000000}   654.920        647.377 +- 0.215    -7.543   0.08333  30.00000   0.00527  
+  298.15 kelvin 1.0 standard_atmosphere CCCCC{solv}{x=1.000000}   621.140        609.883 +- 0.276   -11.257   0.08333  30.00000   0.01173  
+---------------------------------------------------------------------------------------------------------------

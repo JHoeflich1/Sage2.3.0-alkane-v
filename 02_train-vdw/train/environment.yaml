@@ -1,0 +1,53 @@
+name: sage-lipid-ashgc-vdw
+channels:
+  - conda-forge
+  - openeye
+dependencies:
+  - python=3.11
+  - pip
+  - git
+  - setuptools<81
+  - numpy<2
+  # Evaluator's pinned source environment requires pandas 2.
+  - pandas=2.1.4
+  - forcebalance=1.9.6
+  - openff-interchange=0.3.29
+  - openff-toolkit-base=0.16.9
+  - openff-nagl-base=0.5.4
+  # Contains the released 1.0.0 model used by this repository's valence fit.
+  - openff-nagl-models=2025.9.0
+  - openeye-toolkits=2024.2.1
+  - openmm=8.2.0
+  - cudatoolkit=11.8
+  - dask=2024.2.1
+  - distributed=2024.2.1
+  - dask-jobqueue
+  # Evaluator is installed from Git below. Its setup.py does not declare
+  # install_requires, so pip WILL NOT install these runtime dependencies.
+  # Keep them explicit instead of relying on unrelated packages to pull them in.
+  - requests
+  - python-dateutil
+  - pyyaml
+  - pydantic=2
+  - networkx
+  - scipy
+  - rdkit
+  - mdtraj!=1.9.5
+  - netcdf4
+  - packmol
+  # Match the numerical-analysis stack in the upstream Sage vdW environment.
+  - openmmtools=0.23.1
+  - pymbar=3.1.1
+  # pint's Measurement facet only builds as a real class when this is present;
+  # otherwise it degrades to a stub function, and openff-evaluator's
+  # isinstance(..., unit.Measurement) check in attributes.py raises
+  # "TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union".
+  - uncertainties=3.2.3
+  # Pinned to match the combination openff-evaluator@7b5714f /
+  # openff-toolkit@7376cef5 (below) are known to work against.
+  - pint=0.23
+  - openff-units=0.2.2
+  - pip:
+      # Upstream Sage compatibility patch: NAGL in the global toolkit registry.
+      - git+https://github.com/openforcefield/openff-toolkit.git@7376cef56fa3787fd9547fecdbd59dc8c1ee695b
+      - git+https://github.com/openforcefield/openff-evaluator.git@7b5714ffff96ce70a194f0423661a4558432c172

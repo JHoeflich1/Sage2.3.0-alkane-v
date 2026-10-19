@@ -1,0 +1,5 @@
+SLURM_JOB_NAME: fb-worker-alkane-valence-filtered
+Host: bgpu-shirts3.rc.int.colorado.edu
+Port: 59980
+submitting worker 0 with 10 cpus on bgpu-shirts3.rc.int.colorado.edu:59980
+Submitted batch job 28705440

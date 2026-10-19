@@ -1,0 +1,1138 @@
+/scratch/alpine/juho8819/tmp/27787237
+sending incremental file list
+optimize.in
+targets.tar.gz
+forcefield/
+forcefield/force-field.offxml
+
+sent 951,052 bytes  received 85 bytes  126,818.27 bytes/sec
+total size is 950,514  speedup is 1.00
+#======================================================================#
+#| [1m            Welcome to ForceBalance version 1.9.6! =D             [0m |#
+#| [1m                 Force Field Optimization System                  [0m |#
+#| [1m                                                                  [0m |#
+#| [1m                             Authors:                             [0m |#
+#| [1m                          Lee-Ping Wang                           [0m |#
+#| [1m                  Yudong Qiu, Keri A. McKiernan                   [0m |#
+#| [1m          Jeffrey R. Wagner, Hyesu Jang, Simon Boothroyd          [0m |#
+#| [1m          Arthur Vigil, Erik G. Brandt, John Stoppelman           [0m |#
+#| [1m                  Johnny Israeli, Matt Thompson                   [0m |#
+#======================================================================#
+
+                          [44m     [0m                                        
+                       [44m        [0m      [43m     [0m                              
+                    [44m        [0m   [44m  [0m    [43m         [0m                          
+                 [44m       [0m    [44m      [0m      [43m         [0m                       
+             [44m        [0m    [44m        [0m          [43m         [0m                    
+          [44m        [0m    [44m        [0m                 [43m        [0m                 
+       [44m        [0m    [44m       [0m                        [43m        [0m              
+    [44m        [0m   [44m        [0m                              [43m         [0m          
+   [44m      [0m   [44m        [0m               `.:+@@###@'          [43m         [0m       
+    [44m [0m    [44m        [0m          ,;'+###############.             [43m     [0m       
+      [44m        [0m         +################':`                    [43m [0m        
+      [44m     [0m              `.,,...####+.                                  
+                                ,#####      +##.               [44m   [0m   [44m   [0m
+ [43m    [0m                            #####      ######             [44m   [0m   [44m   [0m
+ [43m    [0m                ###'        ####'     :#####'             [44m   [0m   [44m   [0m
+ [43m    [0m                :####@      ####.    ,####'               [44m   [0m   [44m   [0m
+ [43m    [0m                 ######     ####    +###+                 [44m   [0m   [44m   [0m
+ [43m    [0m                  #####     ####   ###;                   [44m   [0m   [44m   [0m
+ [43m    [0m                   :##      ####  ++`                     [44m   [0m   [44m   [0m
+ [43m    [0m                            ####``..:;+##############+`   [44m   [0m   [44m   [0m
+ [43m    [0m             .,:;;'++##################################`  [44m   [0m   [44m   [0m
+ [43m    [0m    `############################++++''';;;;;;;;;;;'';    [44m   [0m   [44m   [0m
+ [43m    [0m      ,########':,.``       ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+      [44m    [0m                       ####                                   
+     [44m        [0m                    ####                                   
+    [44m [0m    [44m       [0m                 ####                       [43m     [0m       
+   [44m     [0m    [44m        [0m             ####                    [43m        [0m       
+   [44m        [0m    [44m        [0m          ###                  [43m         [0m         
+      [44m        [0m    [44m        [0m        +`               [43m        [0m             
+          [44m        [0m   [44m        [0m                   [43m        [0m                
+             [44m        [0m   [44m         [0m           [43m         [0m                   
+                [44m        [0m    [44m       [0m      [43m         [0m                      
+                   [44m        [0m    [44m   [0m    [43m        [0m                          
+                      [44m        [0m       [43m      [0m                             
+                          [44m      [0m      [43m  [0m                                
+                             [44m  [0m                                         
+
+Reading options from file: optimize.in
+#========================================================#
+#| [95m  Options at their default values are not printed   [0m |#
+#| [95m        Use 'verbose_options True' to Enable        [0m |#
+#========================================================#
+Reading force field from file: force-field.offxml
+#=========================================================#
+#| [92m Starting parameter indices, physical values and IDs [0m |#
+#=========================================================#
+   0 [  4.5793e+02 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   1 [  1.5260e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   2 [  6.8077e+02 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+   3 [  1.0924e+00 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+   4 [  9.9692e+01 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+   5 [  1.0965e+02 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+   6 [  3.9432e+01 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+   7 [  1.0801e+02 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+   8 [  1.5740e-01 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X4:3]-[*:4]
+   9 [  5.9125e-01 ] : ProperTorsions/Proper/k3/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  10 [  1.2290e-01 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  11 [  3.1101e-01 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  12 [  2.3921e-01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  13 [  1.3264e-01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  14 [  2.5105e-01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]-[#6X4:3]-[*:4]
+  15 [ -9.2630e-02 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X3:3]=[*:4]
+  16 [ -6.2558e-03 ] : ProperTorsions/Proper/k2/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  17 [  1.3934e-01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  18 [  4.2947e+00 ] : ProperTorsions/Proper/k1/[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]
+  19 [  1.0142e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[*:3])~[*:4]
+  20 [  1.5486e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]
+  21 [  1.3499e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]
+  22 [  7.5432e-01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]
+  23 [ -2.2850e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]
+  24 [  1.2273e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]
+  25 [  7.7352e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]
+-----------------------------------------------------------
+#=========================================================#
+#| [91m Rescaling Factors by Type (Lower Takes Precedence): [0m |#
+#=========================================================#
+   ProperTorsions/Proper/k1             : 4.29473e+00
+   ProperTorsions/Proper/k3             : 5.91246e-01
+   ProperTorsions/Proper/k2             : 1.22905e-01
+   ImproperTorsions/Improper/k1         : 1.54857e+01
+   Angles/Angle/k                       : 1.00000e+02
+   Angles/Angle/angle                   : 5.00000e+00
+   Bonds/Bond/k                         : 1.00000e+02
+   Bonds/Bond/length                    : 1.00000e-01
+   ProperTorsions/Proper/k              : 5.00000e+00
+   ImproperTorsions/Improper/k          : 5.00000e+00
+-----------------------------------------------------------
+#========================================================#
+#| [91m   Rescaling Types / Factors by Parameter Number:   [0m |#
+#========================================================#
+   0 [    Bonds/Bond/k                  : 1.00000e+02 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   1 [    Bonds/Bond/length             : 1.00000e-01 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   2 [    Bonds/Bond/k                  : 1.00000e+02 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+   3 [    Bonds/Bond/length             : 1.00000e-01 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+   4 [    Angles/Angle/k                : 1.00000e+02 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+   5 [    Angles/Angle/angle            : 5.00000e+00 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+   6 [    Angles/Angle/k                : 1.00000e+02 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+   7 [    Angles/Angle/angle            : 5.00000e+00 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+   8 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X4:3]-[*:4]
+   9 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k3/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  10 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  11 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  12 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  13 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  14 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]-[#6X4:3]-[*:4]
+  15 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X3:3]=[*:4]
+  16 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k2/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  17 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  18 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]
+  19 [    ImproperTorsions/Improper/k   : 5.00000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[*:3])~[*:4]
+  20 [    ImproperTorsions/Improper/k   : 5.00000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]
+  21 [    ImproperTorsions/Improper/k   : 5.00000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]
+  22 [    ImproperTorsions/Improper/k   : 5.00000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]
+  23 [    ImproperTorsions/Improper/k   : 5.00000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]
+  24 [    ImproperTorsions/Improper/k   : 5.00000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]
+  25 [    ImproperTorsions/Improper/k   : 5.00000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]
+----------------------------------------------------------
+#========================================================#
+#| [92m               Setup for force field                [0m |#
+#========================================================#
+fnms                      ['force-field.offxml'] 
+priors                    OrderedDict([('Angles/Angle/k', 100.0), ('Angles/Angle/angle', 5.0), ('Bonds/Bond/k', 100.0), ('Bonds/Bond/length', 0.1), ('ProperTorsions/Proper/k', 5.0), ('ImproperTorsions/Improper/k', 5.0)]) 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755468 :        [0m |#
+#========================================================#
+name                      torsion-137755468 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755468 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755493 :        [0m |#
+#========================================================#
+name                      torsion-137755493 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755493 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755351 :        [0m |#
+#========================================================#
+name                      torsion-137755351 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755351 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755480 :        [0m |#
+#========================================================#
+name                      torsion-137755480 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755480 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755383 :        [0m |#
+#========================================================#
+name                      torsion-137755383 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755383 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755355 :        [0m |#
+#========================================================#
+name                      torsion-137755355 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755355 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755344 :        [0m |#
+#========================================================#
+name                      torsion-137755344 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755344 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755366 :        [0m |#
+#========================================================#
+name                      torsion-137755366 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755366 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755381 :        [0m |#
+#========================================================#
+name                      torsion-137755381 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755381 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755352 :        [0m |#
+#========================================================#
+name                      torsion-137755352 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755352 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755343 :        [0m |#
+#========================================================#
+name                      torsion-137755343 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755343 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755465 :        [0m |#
+#========================================================#
+name                      torsion-137755465 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755465 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755490 :        [0m |#
+#========================================================#
+name                      torsion-137755490 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755490 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755364 :        [0m |#
+#========================================================#
+name                      torsion-137755364 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755364 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755454 :        [0m |#
+#========================================================#
+name                      torsion-137755454 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755454 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755479 :        [0m |#
+#========================================================#
+name                      torsion-137755479 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755479 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755349 :        [0m |#
+#========================================================#
+name                      torsion-137755349 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755349 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755357 :        [0m |#
+#========================================================#
+name                      torsion-137755357 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755357 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755464 :        [0m |#
+#========================================================#
+name                      torsion-137755464 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755464 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755489 :        [0m |#
+#========================================================#
+name                      torsion-137755489 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755489 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755425 :        [0m |#
+#========================================================#
+name                      torsion-137755425 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755425 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755466 :        [0m |#
+#========================================================#
+name                      torsion-137755466 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755466 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755491 :        [0m |#
+#========================================================#
+name                      torsion-137755491 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755491 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755365 :        [0m |#
+#========================================================#
+name                      torsion-137755365 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755365 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755382 :        [0m |#
+#========================================================#
+name                      torsion-137755382 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755382 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755354 :        [0m |#
+#========================================================#
+name                      torsion-137755354 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755354 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-146649990 :        [0m |#
+#========================================================#
+name                      torsion-146649990 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-146649990 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-146649987 :        [0m |#
+#========================================================#
+name                      torsion-146649987 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-146649987 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-146649928 :        [0m |#
+#========================================================#
+name                      torsion-146649928 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-146649928 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-146649984 :        [0m |#
+#========================================================#
+name                      torsion-146649984 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-146649984 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-146649991 :        [0m |#
+#========================================================#
+name                      torsion-146649991 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-146649991 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-146649988 :        [0m |#
+#========================================================#
+name                      torsion-146649988 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-146649988 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-146649929 :        [0m |#
+#========================================================#
+name                      torsion-146649929 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-146649929 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-146649985 :        [0m |#
+#========================================================#
+name                      torsion-146649985 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-146649985 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-150595353 :        [0m |#
+#========================================================#
+name                      torsion-150595353 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-150595353 
+----------------------------------------------------------
+#========================================================#
+#| [92m         Setup for target opt-geo-batch-0 :         [0m |#
+#========================================================#
+name                      opt-geo-batch-0 
+type                      OPTGEOTARGET_SMIRNOFF 
+weight                    0.01 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/opt-geo-batch-0 
+----------------------------------------------------------
+#========================================================#
+#| [92m         Setup for target opt-geo-batch-1 :         [0m |#
+#========================================================#
+name                      opt-geo-batch-1 
+type                      OPTGEOTARGET_SMIRNOFF 
+weight                    0.01 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/opt-geo-batch-1 
+----------------------------------------------------------
+#========================================================#
+#| [92m         Setup for target opt-geo-batch-2 :         [0m |#
+#========================================================#
+name                      opt-geo-batch-2 
+type                      OPTGEOTARGET_SMIRNOFF 
+weight                    0.01 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/opt-geo-batch-2 
+----------------------------------------------------------
+#========================================================#
+#| [92m        SMIRNOFF Parameter Coverage Analysis        [0m |#
+#========================================================#
+Reading optgeo options from file: targets/opt-geo-batch-0/optgeo_options.txt
+Reading optgeo options from file: targets/opt-geo-batch-1/optgeo_options.txt
+Reading optgeo options from file: targets/opt-geo-batch-2/optgeo_options.txt
+Force field assignment data written to /gpfs/alpine1/scratch/juho8819/tmp/27787237/smirnoff_parameter_assignments.json
+ idx Parameter                                                                                                   Count
+----------------------------------------------------------------------------------------------------------------------
+   0 Bonds/Bond/k/[#6X4:1]-[#6X4:2]                                                                       :        683
+   1 Bonds/Bond/length/[#6X4:1]-[#6X4:2]                                                                  :        683
+   2 Bonds/Bond/k/[#6X4:1]-[#1:2]                                                                         :       1852
+   3 Bonds/Bond/length/[#6X4:1]-[#1:2]                                                                    :       1852
+   4 Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]                                                                  :       3545
+   5 Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]                                                              :       3545
+   6 Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]                                                                :       1357
+   7 Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]                                                            :       1357
+   8 ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X4:3]-[*:4]                                               :         93
+   9 ProperTorsions/Proper/k3/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]                                         :        521
+  10 ProperTorsions/Proper/k2/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]                                         :        521
+  11 ProperTorsions/Proper/k1/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]                                         :        521
+  12 ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]                                             :       2568
+  13 ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]                                           :       2965
+  14 ProperTorsions/Proper/k1/[*:1]~[#6X3:2]-[#6X4:3]-[*:4]                                               :        150
+  15 ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X3:3]=[*:4]                                               :         31
+  16 ProperTorsions/Proper/k2/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]                                           :        119
+  17 ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]                                           :        119
+  18 ProperTorsions/Proper/k1/[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]                                           :         85
+  19 ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[*:3])~[*:4]                                            :         54
+  20 ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]                                        :          0
+  21 ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]                       :          0
+  22 ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]                                 :          0
+  23 ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]                                 :          0
+  24 ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]                 :          0
+  25 ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]                                 :          0
+SMIRNOFF Parameter Coverage Analysis result: 20/26 parameters are covered.
+----------------------------------------------------------------------------------------------------------------------
+Using parabolic regularization (Gaussian prior) with strength 1.0e+00 (+), 0.0e+00 (x)
+Work Queue is listening on 59980
+#========================================================#
+#| [92m           Setup for objective function :           [0m |#
+#========================================================#
+penalty_additive          1.0 
+normalize_weights         False 
+wq_port                   59980 
+asynchronous              True 
+----------------------------------------------------------
+#========================================================#
+#| [92m                Setup for optimizer                 [0m |#
+#========================================================#
+jobtype                   OPTIMIZE 
+trust0                    -1.0 
+mintrust                  0.05 
+eps                       0.01 
+h                         0.01 
+h0                        0.01 
+convergence_objective     0.1 
+convergence_step          0.01 
+convergence_gradient      0.1 
+maxstep                   1 
+adapt_fac                 0.2 
+adapt_damp                1.0 
+err_tol                   1.0 
+search_tol                0.1 
+backup                    False 
+retain_micro_outputs      False 
+input_file                optimize.in 
+criteria                  2 
+----------------------------------------------------------
+Calculation started at 2026-08-19 11:15 PM
+#========================================================#
+#| [1m                  Main Optimizer                    [0m |#
+#| [1m  Newton-Raphson Method (Hessian Diagonal Search)   [0m |#
+#| [1m                                                    [0m |#
+#| [1m       [0mConvergence criteria (2 of 3 needed):        [0m |#
+#| [1m          [0mObjective Function  : 1.000e-01           [0m |#
+#| [1m          [0mNorm of Gradient    : 1.000e-01           [0m |#
+#| [1m          [0mParameter step size : 1.000e-02           [0m |#
+#========================================================#
+#========================================================#
+#|       Color Key for Objective Function -=X2=-        |#
+#|  [1mBold[0m = Initial step                                 |#
+#|  [92mGreen = Current lowest value of objective function[0m  |#
+#|  [91mRed = Objective function rises, step rejected[0m       |#
+#|  [0mNo color = Not at the lowest value                  |#
+#========================================================#
+#========================================================#
+#| [94m     Iteration 0: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Wed Aug 19 23:15:38 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:39 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:40 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:41 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:42 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:43 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:44 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:45 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:46 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:47 2026 : 0/0 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:48 2026 : 17/17 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:49 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:50 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:51 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:52 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:53 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:54 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:55 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:56 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:57 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:58 2026 : 20/20 workers busy; 0/38 jobs complete  Wed Aug 19 23:15:59 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:00 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:01 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:02 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:03 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:04 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:05 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:06 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:07 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:08 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:09 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:10 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:11 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:12 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:13 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:14 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:15 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:16 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:17 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:18 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:19 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:20 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:21 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:22 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:23 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:24 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:25 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:26 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:27 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:28 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:30 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:31 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:32 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:33 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:34 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:35 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:36 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:37 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:38 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:39 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:40 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:41 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:42 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:43 2026 : 38/40 workers busy; 0/38 jobs complete  Wed Aug 19 23:16:43 2026 : 37/40 workers busy; 1/38 jobs complete  Wed Aug 19 23:16:44 2026 : 37/40 workers busy; 1/38 jobs complete  Wed Aug 19 23:16:45 2026 : 37/40 workers busy; 1/38 jobs complete  Wed Aug 19 23:16:46 2026 : 37/40 workers busy; 1/38 jobs complete  Wed Aug 19 23:16:47 2026 : 37/40 workers busy; 1/38 jobs complete  Wed Aug 19 23:16:48 2026 : 37/40 workers busy; 1/38 jobs complete  Wed Aug 19 23:16:49 2026 : 37/40 workers busy; 1/38 jobs complete  Task 'torsion-137755343' (task 11) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (62 seconds)
+Wed Aug 19 23:16:49 2026 : 36/40 workers busy; 2/38 jobs complete  Wed Aug 19 23:16:50 2026 : 35/40 workers busy; 3/38 jobs complete  Task 'torsion-137755344' (task 7) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (62 seconds)
+Wed Aug 19 23:16:50 2026 : 35/40 workers busy; 3/38 jobs complete  Wed Aug 19 23:16:51 2026 : 35/40 workers busy; 3/38 jobs complete  Wed Aug 19 23:16:52 2026 : 35/40 workers busy; 3/38 jobs complete  Wed Aug 19 23:16:53 2026 : 35/40 workers busy; 3/38 jobs complete  Task 'torsion-137755351' (task 3) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (66 seconds)
+Wed Aug 19 23:16:53 2026 : 34/40 workers busy; 4/38 jobs complete  Wed Aug 19 23:16:54 2026 : 33/40 workers busy; 5/38 jobs complete  Task 'torsion-137755357' (task 18) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (65 seconds)
+Wed Aug 19 23:16:54 2026 : 33/40 workers busy; 5/38 jobs complete  Wed Aug 19 23:16:55 2026 : 32/40 workers busy; 6/38 jobs complete  Task 'torsion-137755355' (task 6) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (67 seconds)
+Wed Aug 19 23:16:55 2026 : 32/40 workers busy; 6/38 jobs complete  Wed Aug 19 23:16:55 2026 : 31/40 workers busy; 7/38 jobs complete  Task 'torsion-137755454' (task 15) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (68 seconds)
+Wed Aug 19 23:16:55 2026 : 30/40 workers busy; 8/38 jobs complete  Wed Aug 19 23:16:55 2026 : 29/40 workers busy; 9/38 jobs complete  Wed Aug 19 23:16:56 2026 : 28/40 workers busy; 10/38 jobs complete  Task 'torsion-137755352' (task 10) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (68 seconds)
+Wed Aug 19 23:16:56 2026 : 28/40 workers busy; 10/38 jobs complete  Task 'torsion-137755364' (task 14) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (68 seconds)
+Wed Aug 19 23:16:56 2026 : 27/40 workers busy; 11/38 jobs complete  Task 'torsion-137755480' (task 4) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (68 seconds)
+Wed Aug 19 23:16:56 2026 : 26/40 workers busy; 12/38 jobs complete  
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755351, Objective =  2.24915e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755351                                         180        180     0.000 - 1.897     0.000 - 2.183      0.027     0.1500    0.0225 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Wed Aug 19 23:16:56 2026 : 25/40 workers busy; 13/38 jobs complete  Wed Aug 19 23:16:57 2026 : 24/40 workers busy; 14/38 jobs complete  Wed Aug 19 23:16:57 2026 : 24/40 workers busy; 14/38 jobs complete  Wed Aug 19 23:16:58 2026 : 24/40 workers busy; 14/38 jobs complete  Wed Aug 19 23:16:59 2026 : 23/40 workers busy; 15/38 jobs complete  Task 'torsion-137755349' (task 17) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (71 seconds)
+Wed Aug 19 23:16:59 2026 : 23/40 workers busy; 15/38 jobs complete  Task 'torsion-137755464' (task 19) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (71 seconds)
+Wed Aug 19 23:16:59 2026 : 22/40 workers busy; 16/38 jobs complete  Wed Aug 19 23:17:00 2026 : 21/40 workers busy; 17/38 jobs complete  Task 'torsion-137755491' (task 23) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (61 seconds)
+Wed Aug 19 23:17:00 2026 : 21/40 workers busy; 17/38 jobs complete  Task 'torsion-146649928' (task 29) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (61 seconds)
+Wed Aug 19 23:17:00 2026 : 20/40 workers busy; 18/38 jobs complete  Task 'torsion-137755479' (task 16) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (73 seconds)
+Wed Aug 19 23:17:00 2026 : 19/40 workers busy; 19/38 jobs complete  Wed Aug 19 23:17:01 2026 : 18/40 workers busy; 20/38 jobs complete  Task 'torsion-146649984' (task 30) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (62 seconds)
+Wed Aug 19 23:17:01 2026 : 18/40 workers busy; 20/38 jobs complete  Task 'torsion-137755465' (task 12) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (74 seconds)
+Wed Aug 19 23:17:01 2026 : 17/40 workers busy; 21/38 jobs complete  Task 'torsion-137755382' (task 25) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (62 seconds)
+Wed Aug 19 23:17:01 2026 : 16/40 workers busy; 22/38 jobs complete  Task 'torsion-137755381' (task 9) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (74 seconds)
+Wed Aug 19 23:17:01 2026 : 15/40 workers busy; 23/38 jobs complete  Task 'torsion-137755466' (task 22) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (60 seconds)
+Wed Aug 19 23:17:01 2026 : 14/40 workers busy; 24/38 jobs complete  Task 'torsion-137755489' (task 20) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (73 seconds)
+Wed Aug 19 23:17:01 2026 : 13/40 workers busy; 25/38 jobs complete  Wed Aug 19 23:17:02 2026 : 12/40 workers busy; 26/38 jobs complete  Task 'torsion-137755490' (task 13) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (74 seconds)
+Wed Aug 19 23:17:02 2026 : 12/40 workers busy; 26/38 jobs complete  Task 'torsion-150595353' (task 35) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (63 seconds)
+Wed Aug 19 23:17:02 2026 : 11/40 workers busy; 27/38 jobs complete  Task 'torsion-146649985' (task 34) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (63 seconds)
+Wed Aug 19 23:17:02 2026 : 10/40 workers busy; 28/38 jobs complete  Task 'torsion-137755383' (task 5) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (75 seconds)
+Wed Aug 19 23:17:02 2026 : 9/40 workers busy; 29/38 jobs complete  Task 'torsion-137755468' (task 1) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (75 seconds)
+Wed Aug 19 23:17:02 2026 : 8/40 workers busy; 30/38 jobs complete  Wed Aug 19 23:17:04 2026 : 7/40 workers busy; 31/38 jobs complete  Task 'torsion-137755493' (task 2) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (76 seconds)
+Wed Aug 19 23:17:04 2026 : 7/40 workers busy; 31/38 jobs complete  Task 'torsion-146649929' (task 33) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (65 seconds)
+Wed Aug 19 23:17:04 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:05 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:06 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:07 2026 : 6/40 workers busy; 32/38 jobs complete  
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755468, Objective =  1.75360e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755468                                         -60        180     0.000 - 1.896    -0.026 - 2.158      0.030     0.1324    0.0175 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755493, Objective =  4.13319e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755493                                         -60        180     0.000 - 0.890    -0.009 - 1.295      0.033     0.2033    0.0413 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755480, Objective =  3.96812e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755480                                         -60        180     0.000 - 0.892    -0.009 - 1.301      0.039     0.1992    0.0397 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755383, Objective =  2.86954e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755383                                         180        -60     0.000 - 2.899    -0.025 - 4.131      0.037     0.5357    0.2870 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755355, Objective =  2.88134e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755355                                         180        -60     0.000 - 2.898    -0.025 - 4.132      0.035     0.5368    0.2881 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755344, Objective =  2.85466e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755344                                         180         60     0.000 - 2.901    -0.024 - 4.131      0.036     0.5343    0.2855 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755366, Objective =  2.45460e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755366                                         180        180     0.000 - 37.596    0.000 - 26.282     0.068     0.1567    0.0245 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755381, Objective =  2.81005e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755381                                         180        180     0.000 - 5.274     0.000 - 5.012      0.039     0.5301    0.2810 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755352, Objective =  2.55981e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755352                                         180        180     0.000 - 5.247     0.000 - 5.019      0.041     0.5059    0.2560 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755343, Objective =  2.59469e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755343                                         180        180     0.000 - 5.255     0.000 - 5.036      0.043     0.5094    0.2595 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755465, Objective =  1.79956e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755465                                        -120       -120     0.000 - 2.064     0.000 - 2.354      0.031     0.4242    0.1800 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755490, Objective =  3.21452e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755490                                         105        105     0.000 - 3.690     0.000 - 5.227      0.096     0.5670    0.3215 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755364, Objective =  1.72886e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755364                                        -120        120     0.000 - 2.083    -0.000 - 2.297      0.024     0.4158    0.1729 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755454, Objective =  2.45958e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755454                                        -120       -120     0.000 - 2.130     0.000 - 2.334      0.022     0.4959    0.2460 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755479, Objective =  2.96653e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755479                                         120        120     0.000 - 3.592     0.000 - 5.036      0.102     0.5447    0.2967 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755349, Objective =  3.26996e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755349                                          60         60     0.000 - 3.073     0.000 - 4.400      0.033     0.5718    0.3270 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755357, Objective =  3.33688e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755357                                         -60        -60     0.000 - 3.070     0.000 - 4.404      0.034     0.5777    0.3337 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755464, Objective =  2.90188e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755464                                         180        180     0.000 - 4.712     0.000 - 5.891      0.037     0.5387    0.2902 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755489, Objective =  9.76298e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755489                                         -60        180     0.000 - 4.835    -0.320 - 5.525      0.038     0.3125    0.0976 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755425, Objective =  2.98525e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755425                                         180        180     0.000 - 4.772     0.000 - 5.968      0.043     0.5464    0.2985 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755466, Objective =  3.07625e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755466                                          60        -60     0.000 - 2.906    -0.000 - 4.163      0.038     0.5546    0.3076 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755491, Objective =  2.99209e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755491                                         180         60     0.000 - 2.899    -0.017 - 4.145      0.040     0.5470    0.2992 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755365, Objective =  2.86690e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755365                                         180         60     0.000 - 2.917    -0.017 - 4.145      0.040     0.5354    0.2867 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755382, Objective =  3.10306e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755382                                         180        180     0.000 - 5.208     0.000 - 5.050      0.048     0.5571    0.3103 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755354, Objective =  3.20279e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755354                                         180        180     0.000 - 5.261     0.000 - 5.072      0.048     0.5659    0.3203 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Wed Aug 19 23:17:09 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:10 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:11 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:12 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:13 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:14 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:15 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:16 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:17 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:18 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:19 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:20 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:21 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:22 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:23 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:24 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:25 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:26 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:27 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:28 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:29 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:30 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:31 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:32 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:33 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:34 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:35 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:36 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:37 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:38 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:39 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:40 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:41 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:42 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:43 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:44 2026 : 6/40 workers busy; 32/38 jobs complete  Wed Aug 19 23:17:45 2026 : 5/40 workers busy; 33/38 jobs complete  Task 'opt-geo-batch-0' (task 36) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (106 seconds)
+Wed Aug 19 23:17:45 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:46 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:47 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:48 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:49 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:50 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:51 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:52 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:53 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:54 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:55 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:56 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:57 2026 : 5/40 workers busy; 33/38 jobs complete  Wed Aug 19 23:17:58 2026 : 4/40 workers busy; 34/38 jobs complete  Task 'torsion-146649988' (task 32) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (119 seconds)
+Wed Aug 19 23:17:58 2026 : 4/40 workers busy; 34/38 jobs complete  Wed Aug 19 23:17:59 2026 : 4/40 workers busy; 34/38 jobs complete  Wed Aug 19 23:18:00 2026 : 4/40 workers busy; 34/38 jobs complete  Wed Aug 19 23:18:01 2026 : 3/40 workers busy; 35/38 jobs complete  Task 'torsion-146649987' (task 28) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (122 seconds)
+Wed Aug 19 23:18:01 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:02 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:03 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:04 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:05 2026 : 3/40 workers busy; 35/38 jobs complete  
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-146649987, Objective =  2.64643e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-146649987                                         180        180     0.000 - 3.767     0.000 - 5.433      0.064     0.5144    0.2646 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Wed Aug 19 23:18:06 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:07 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:08 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:09 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:10 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:11 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:12 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:13 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:14 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:15 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:16 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:17 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:18 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:19 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:20 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:21 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:22 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:23 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:24 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:25 2026 : 3/40 workers busy; 35/38 jobs complete  Wed Aug 19 23:18:26 2026 : 3/40 workers busy; 35/38 jobs complete  Task 'opt-geo-batch-1' (task 37) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (147 seconds)
+Wed Aug 19 23:18:26 2026 : 2/40 workers busy; 36/38 jobs complete  Wed Aug 19 23:18:27 2026 : 2/40 workers busy; 36/38 jobs complete  Task 'torsion-146649991' (task 31) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (148 seconds)
+Wed Aug 19 23:18:27 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:28 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:29 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:30 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:31 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:32 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:33 2026 : 1/40 workers busy; 37/38 jobs complete  
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-146649928, Objective =  2.26239e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-146649928                                         180        180     0.000 - 1.897     0.000 - 2.182      0.024     0.1504    0.0226 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Wed Aug 19 23:18:34 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:35 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:36 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:37 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:38 2026 : 1/40 workers busy; 37/38 jobs complete  Wed Aug 19 23:18:39 2026 : 0/40 workers busy; 38/38 jobs complete  Task 'torsion-146649990' (task 27) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (160 seconds)
+Wed Aug 19 23:18:39 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:40 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:41 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:42 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:43 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:44 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:45 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:46 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:47 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:48 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:49 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:50 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:51 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:52 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:53 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:54 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:55 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:56 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:57 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:58 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:18:59 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:19:00 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:19:01 2026 : 0/40 workers busy; 38/38 jobs complete  Wed Aug 19 23:19:02 2026 : 0/40 workers busy; 38/38 jobs complete  
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-146649990, Objective =  2.23364e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-146649990                                         180        180     0.000 - 3.928     0.000 - 5.532      0.054     0.4726    0.2234 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-146649984, Objective =  4.06515e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-146649984                                          60        180     0.000 - 0.892    -0.011 - 1.293      0.033     0.2016    0.0407 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-146649991, Objective =  1.27163e+00, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-146649991                                        -105       -105     0.000 - 5.227     0.000 - 7.738      0.059     1.1277    1.2716 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-146649988, Objective =  1.96494e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-146649988                                         105        105     0.000 - 4.028     0.000 - 5.179      0.044     0.4433    0.1965 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-146649929, Objective =  1.30920e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-146649929                                         120       -120     0.000 - 2.117    -0.314 - 2.040      0.031     0.3618    0.1309 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-146649985, Objective =  3.21493e-01, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-146649985                                        -105       -105     0.000 - 3.689     0.000 - 5.228      0.096     0.5670    0.3215 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-150595353, Objective =  9.77553e-02, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-150595353                                          60        180     0.000 - 4.835    -0.319 - 5.524      0.038     0.3127    0.0978 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+#======================================================================================================================#
+#| [92m                                    opt-geo-batch-0, Objective =  6.03771e+01                                     [0m |#
+#| [92m  System                       Bonds            Angles           Dihedrals         Impropers               Term.  [0m |#
+#| [92m                            RMSD   denom      RMSD   denom      RMSD   denom      RMSD   denom                    [0m |#
+#======================================================================================================================#
+37016576-0                    0.004    0.05     1.055    5.00     1.019   10.00     0.000   10.00             1.414 
+37016577-1                    0.003    0.05     0.777    5.00     0.690   10.00     0.000   10.00             0.771 
+37017088-2                    0.003    0.05     0.779    5.00     0.965   10.00     0.000   10.00             0.888 
+37017014-3                    0.001    0.05     0.000    5.00     0.000   10.00     0.000   10.00             0.001 
+37016960-4                    0.003    0.05     0.945    5.00     0.829   10.00     0.000   10.00             0.806 
+143342530-5                   0.006    0.05     0.941    5.00     1.100   10.00     0.000   10.00             3.132 
+143342531-6                   0.005    0.05     0.952    5.00     1.232   10.00     0.000   10.00             3.389 
+143342532-7                   0.005    0.05     0.899    5.00     1.019   10.00     0.000   10.00             2.829 
+143342508-8                   0.005    0.05     0.900    5.00     1.020   10.00     0.000   10.00             2.837 
+143342514-9                   0.005    0.05     0.910    5.00     1.053   10.00     0.000   10.00             2.917 
+143342960-10                  0.005    0.05     0.883    5.00     1.413   10.00     0.000   10.00             3.812 
+143342961-11                  0.005    0.05     0.882    5.00     1.402   10.00     0.000   10.00             3.783 
+143342921-12                  0.005    0.05     0.746    5.00     1.218   10.00     0.000   10.00             2.895 
+143342962-13                  0.005    0.05     0.752    5.00     1.216   10.00     0.000   10.00             2.908 
+143342963-14                  0.005    0.05     0.861    5.00     1.231   10.00     0.000   10.00             3.344 
+138543406-15                  0.004    0.05     1.101    5.00     1.098   10.00     0.000   10.00             1.983 
+138543394-16                  0.004    0.05     0.874    5.00     0.830   10.00     0.000   10.00             1.266 
+138533774-17                  0.004    0.05     0.608    5.00     0.933   10.00     0.000   10.00             1.039 
+138533349-18                  0.005    0.05     0.897    5.00     0.982   10.00     0.000   10.00             1.784 
+138533350-19                  0.005    0.05     0.908    5.00     1.629   10.00     0.000   10.00             2.577 
+138543400-20                  0.004    0.05     0.710    5.00     0.738   10.00     0.000   10.00             0.901 
+138543234-21                  0.004    0.05     0.710    5.00     0.715   10.00     0.000   10.00             0.888 
+138533351-22                  0.004    0.05     0.742    5.00     0.912   10.00     0.000   10.00             1.318 
+138533352-23                  0.004    0.05     0.743    5.00     0.843   10.00     0.000   10.00             1.265 
+138533353-24                  0.004    0.05     0.811    5.00     1.125   10.00     0.000   10.00             1.669 
+138533575-25                  0.004    0.05     0.965    5.00     1.259   10.00     0.000   10.00             2.596 
+138533576-26                  0.005    0.05     0.833    5.00     1.036   10.00     0.000   10.00             1.938 
+138533577-27                  0.004    0.05     0.836    5.00     0.899   10.00     0.000   10.00             1.780 
+138533578-28                  0.005    0.05     0.833    5.00     1.050   10.00     0.000   10.00             1.953 
+138533234-29                  0.004    0.05     0.816    5.00     0.870   10.00     0.000   10.00             1.694 
+------------------------------------------------------------------------------------------------------------------------
+
+#======================================================================================================================#
+#| [92m                                    opt-geo-batch-1, Objective =  1.35307e+02                                     [0m |#
+#| [92m  System                       Bonds            Angles           Dihedrals         Impropers               Term.  [0m |#
+#| [92m                            RMSD   denom      RMSD   denom      RMSD   denom      RMSD   denom                    [0m |#
+#======================================================================================================================#
+138533235-0                   0.004    0.05     0.819    5.00     0.873   10.00     0.000   10.00             1.708 
+138533236-1                   0.005    0.05     0.818    5.00     0.813   10.00     0.000   10.00             1.665 
+138533237-2                   0.004    0.05     0.815    5.00     0.873   10.00     0.000   10.00             1.696 
+138550237-3                   0.005    0.05     0.846    5.00     1.135   10.00     0.000   10.00             2.407 
+138550238-4                   0.005    0.05     0.897    5.00     1.071   10.00     0.000   10.00             2.491 
+138550239-5                   0.005    0.05     0.728    5.00     0.793   10.00     0.000   10.00             1.622 
+138550240-6                   0.005    0.05     0.727    5.00     0.785   10.00     0.000   10.00             1.612 
+138534063-7                   0.005    0.05     1.037    5.00     1.234   10.00     0.000   10.00             3.652 
+138534064-8                   0.005    0.05     0.943    5.00     1.121   10.00     0.000   10.00             3.078 
+138534065-9                   0.004    0.05     0.946    5.00     1.006   10.00     0.000   10.00             2.887 
+138534066-10                  0.005    0.05     0.944    5.00     1.114   10.00     0.000   10.00             3.072 
+138534067-11                  0.005    0.05     0.908    5.00     1.140   10.00     0.000   10.00             2.954 
+138535045-12                  0.005    0.05     0.922    5.00     1.106   10.00     0.000   10.00             3.629 
+138535046-13                  0.005    0.05     0.791    5.00     1.041   10.00     0.000   10.00             2.937 
+138535047-14                  0.005    0.05     0.791    5.00     1.042   10.00     0.000   10.00             2.938 
+138535048-15                  0.005    0.05     0.790    5.00     1.010   10.00     0.000   10.00             2.874 
+138535049-16                  0.005    0.05     0.789    5.00     0.999   10.00     0.000   10.00             2.848 
+138537263-17                  0.006    0.05     0.796    5.00     1.564   10.00     0.000   10.00             6.337 
+138537264-18                  0.005    0.05     1.051    5.00     1.395   10.00     0.000   10.00             7.386 
+138537265-19                  0.005    0.05     0.998    5.00     1.344   10.00     0.000   10.00             6.806 
+138537266-20                  0.005    0.05     1.000    5.00     1.366   10.00     0.000   10.00             6.901 
+138537268-21                  0.005    0.05     0.944    5.00     1.208   10.00     0.000   10.00             5.949 
+138539340-22                  0.006    0.05     0.826    5.00     1.856   10.00     0.000   10.00             8.960 
+138539342-23                  0.006    0.05     0.872    5.00     2.039   10.00     0.000   10.00            10.375 
+138539343-24                  0.006    0.05     0.863    5.00     2.826   10.00     0.000   10.00            16.176 
+138539344-25                  0.006    0.05     0.864    5.00     1.315   10.00     0.000   10.00             6.610 
+138539345-26                  0.006    0.05     0.827    5.00     1.311   10.00     0.000   10.00             6.277 
+138536409-27                  0.006    0.05     0.924    5.00     1.385   10.00     0.000   10.00             3.568 
+138536410-28                  0.006    0.05     0.818    5.00     1.033   10.00     0.000   10.00             2.570 
+138536411-29                  0.005    0.05     0.869    5.00     1.377   10.00     0.000   10.00             3.321 
+------------------------------------------------------------------------------------------------------------------------
+
+#======================================================================================================================#
+#| [92m                                    opt-geo-batch-2, Objective =  3.51235e+01                                     [0m |#
+#| [92m  System                       Bonds            Angles           Dihedrals         Impropers               Term.  [0m |#
+#| [92m                            RMSD   denom      RMSD   denom      RMSD   denom      RMSD   denom                    [0m |#
+#======================================================================================================================#
+138536412-0                   0.006    0.05     0.945    5.00     1.152   10.00     0.000   10.00             3.230 
+138536413-1                   0.005    0.05     0.861    5.00     2.789   10.00     0.000   10.00             7.534 
+1760149-2                     0.004    0.05     1.061    5.00     1.029   10.00     0.000   10.00             1.431 
+25724668-3                    0.001    0.05     0.006    5.00     0.000   10.00     0.000   10.00             0.001 
+25724794-4                    0.003    0.05     1.142    5.00     0.006   10.00     0.000   10.00             0.652 
+25731813-5                    0.003    0.05     0.947    5.00     0.832   10.00     0.000   10.00             0.809 
+25732484-6                    0.004    0.05     1.061    5.00     1.028   10.00     0.000   10.00             1.431 
+25733143-7                    0.005    0.05     0.572    5.00     0.909   10.00     0.000   10.00             1.373 
+25733146-8                    0.004    0.05     0.964    5.00     1.259   10.00     0.000   10.00             2.594 
+25733089-9                    0.004    0.05     1.100    5.00     1.097   10.00     0.000   10.00             1.979 
+25733196-10                   0.004    0.05     0.589    5.00     1.477   10.00     0.000   10.00             2.546 
+25733199-11                   0.005    0.05     0.857    5.00     1.166   10.00     0.000   10.00             2.485 
+25733195-12                   0.004    0.05     1.130    5.00     1.142   10.00     0.000   10.00             2.549 
+25733203-13                   0.004    0.05     0.999    5.00     1.029   10.00     0.000   10.00             2.410 
+25732836-14                   0.005    0.05     0.930    5.00     2.137   10.00     0.000   10.00             4.098 
+2002980-15                    0.001    0.05     0.002    5.00     0.000   10.00     0.000   10.00             0.001 
+------------------------------------------------------------------------------------------------------------------------
+#====================================================================#
+#| [94m                  Objective Function Breakdown                  [0m |#
+#| [94m  Target Name              Residual  x  Weight  =  Contribution [0m |#
+#====================================================================#
+torsion-137755468              0.01754      1.000 [94m     1.75360e-02[0m 
+torsion-137755493              0.04133      1.000 [94m     4.13319e-02[0m 
+torsion-137755351              0.02249      1.000 [94m     2.24915e-02[0m 
+torsion-137755480              0.03968      1.000 [94m     3.96812e-02[0m 
+torsion-137755383              0.28695      1.000 [94m     2.86954e-01[0m 
+torsion-137755355              0.28813      1.000 [94m     2.88134e-01[0m 
+torsion-137755344              0.28547      1.000 [94m     2.85466e-01[0m 
+torsion-137755366              0.02455      1.000 [94m     2.45460e-02[0m 
+torsion-137755381              0.28101      1.000 [94m     2.81005e-01[0m 
+torsion-137755352              0.25598      1.000 [94m     2.55981e-01[0m 
+torsion-137755343              0.25947      1.000 [94m     2.59469e-01[0m 
+torsion-137755465              0.17996      1.000 [94m     1.79956e-01[0m 
+torsion-137755490              0.32145      1.000 [94m     3.21452e-01[0m 
+torsion-137755364              0.17289      1.000 [94m     1.72886e-01[0m 
+torsion-137755454              0.24596      1.000 [94m     2.45958e-01[0m 
+torsion-137755479              0.29665      1.000 [94m     2.96653e-01[0m 
+torsion-137755349              0.32700      1.000 [94m     3.26996e-01[0m 
+torsion-137755357              0.33369      1.000 [94m     3.33688e-01[0m 
+torsion-137755464              0.29019      1.000 [94m     2.90188e-01[0m 
+torsion-137755489              0.09763      1.000 [94m     9.76298e-02[0m 
+torsion-137755425              0.29853      1.000 [94m     2.98525e-01[0m 
+torsion-137755466              0.30762      1.000 [94m     3.07625e-01[0m 
+torsion-137755491              0.29921      1.000 [94m     2.99209e-01[0m 
+torsion-137755365              0.28669      1.000 [94m     2.86690e-01[0m 
+torsion-137755382              0.31031      1.000 [94m     3.10306e-01[0m 
+torsion-137755354              0.32028      1.000 [94m     3.20279e-01[0m 
+torsion-146649990              0.22336      1.000 [94m     2.23364e-01[0m 
+torsion-146649987              0.26464      1.000 [94m     2.64643e-01[0m 
+torsion-146649928              0.02262      1.000 [94m     2.26239e-02[0m 
+torsion-146649984              0.04065      1.000 [94m     4.06515e-02[0m 
+torsion-146649991              1.27163      1.000 [94m     1.27163e+00[0m 
+torsion-146649988              0.19649      1.000 [94m     1.96494e-01[0m 
+torsion-146649929              0.13092      1.000 [94m     1.30920e-01[0m 
+torsion-146649985              0.32149      1.000 [94m     3.21493e-01[0m 
+torsion-150595353              0.09776      1.000 [94m     9.77553e-02[0m 
+opt-geo-batch-0               60.37714      0.010 [94m     6.03771e-01[0m 
+opt-geo-batch-1              135.30722      0.010 [94m     1.35307e+00[0m 
+opt-geo-batch-2               35.12355      0.010 [94m     3.51235e-01[0m 
+Regularization                 0.00000      1.000 [94m     0.00000e+00[0m 
+Total                                             [94m     1.07683e+01[0m 
+----------------------------------------------------------------------
+
+  Step       |k|        |dk|       |grad|       -=X2=-     Delta(X2)    StepQual
+     0   0.000e+00   0.000e+00   4.456e+02[1m   1.07683e+01[0m   0.000e+00      0.000
+
+#========================================================#
+#| [94m                   Total Gradient                   [0m |#
+#========================================================#
+   0 [  7.10294378e-02 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   1 [ -1.77342731e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   2 [  9.27922041e-03 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+   3 [ -3.56419514e+00 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+   4 [  7.38065333e+00 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+   5 [ -8.15443453e+00 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+   6 [  2.09466400e+00 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+   7 [  3.61970954e+00 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+   8 [  9.23394663e+01 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X4:3]-[*:4]
+   9 [  1.22096704e+01 ] : ProperTorsions/Proper/k3/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  10 [ -5.11598129e-01 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  11 [  1.86024667e+01 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  12 [  3.70162589e+02 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  13 [  1.83247312e+02 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  14 [  1.01739769e+02 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]-[#6X4:3]-[*:4]
+  15 [  2.66074024e+01 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X3:3]=[*:4]
+  16 [ -3.47784856e+01 ] : ProperTorsions/Proper/k2/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  17 [  8.06256792e+01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  18 [ -1.00406171e-01 ] : ProperTorsions/Proper/k1/[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]
+  19 [ -1.20480754e-03 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[*:3])~[*:4]
+  20 [  0.00000000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]
+  21 [  0.00000000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]
+  22 [  0.00000000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]
+  23 [  0.00000000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]
+  24 [  0.00000000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]
+  25 [  0.00000000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]
+----------------------------------------------------------
+Calculating nonlinear optimization step
+Starting Hessian diagonal search with step size 4.7036e-01
+Wed Aug 19 23:19:03 2026 : 1/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:04 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:05 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:06 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:07 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:08 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:09 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:10 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:11 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:12 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:13 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:14 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:15 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:16 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:17 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:18 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:19 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:20 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:21 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:22 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:23 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:24 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:25 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:26 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:27 2026 : 38/40 workers busy; 38/76 jobs complete  Wed Aug 19 23:19:28 2026 : 37/40 workers busy; 39/76 jobs complete  Wed Aug 19 23:19:28 2026 : 37/40 workers busy; 39/76 jobs complete  Wed Aug 19 23:19:29 2026 : 36/40 workers busy; 40/76 jobs complete  Wed Aug 19 23:19:29 2026 : 36/40 workers busy; 40/76 jobs complete  Wed Aug 19 23:19:29 2026 : 35/40 workers busy; 41/76 jobs complete  Wed Aug 19 23:19:29 2026 : 34/40 workers busy; 42/76 jobs complete  Wed Aug 19 23:19:29 2026 : 33/40 workers busy; 43/76 jobs complete  Wed Aug 19 23:19:29 2026 : 32/40 workers busy; 44/76 jobs complete  Wed Aug 19 23:19:29 2026 : 31/40 workers busy; 45/76 jobs complete  Wed Aug 19 23:19:29 2026 : 30/40 workers busy; 46/76 jobs complete  Wed Aug 19 23:19:29 2026 : 29/40 workers busy; 47/76 jobs complete  Wed Aug 19 23:19:29 2026 : 28/40 workers busy; 48/76 jobs complete  Wed Aug 19 23:19:29 2026 : 27/40 workers busy; 49/76 jobs complete  Wed Aug 19 23:19:29 2026 : 26/40 workers busy; 50/76 jobs complete  Wed Aug 19 23:19:29 2026 : 25/40 workers busy; 51/76 jobs complete  Wed Aug 19 23:19:29 2026 : 24/40 workers busy; 52/76 jobs complete  Wed Aug 19 23:19:29 2026 : 23/40 workers busy; 53/76 jobs complete  Wed Aug 19 23:19:29 2026 : 22/40 workers busy; 54/76 jobs complete  Wed Aug 19 23:19:29 2026 : 21/40 workers busy; 55/76 jobs complete  Wed Aug 19 23:19:29 2026 : 20/40 workers busy; 56/76 jobs complete  Wed Aug 19 23:19:29 2026 : 19/40 workers busy; 57/76 jobs complete  Wed Aug 19 23:19:29 2026 : 18/40 workers busy; 58/76 jobs complete  Wed Aug 19 23:19:29 2026 : 17/40 workers busy; 59/76 jobs complete  Wed Aug 19 23:19:30 2026 : 16/40 workers busy; 60/76 jobs complete  Wed Aug 19 23:19:30 2026 : 16/40 workers busy; 60/76 jobs complete  Wed Aug 19 23:19:30 2026 : 15/40 workers busy; 61/76 jobs complete  Wed Aug 19 23:19:30 2026 : 14/40 workers busy; 62/76 jobs complete  Wed Aug 19 23:19:30 2026 : 13/40 workers busy; 63/76 jobs complete  Wed Aug 19 23:19:31 2026 : 13/40 workers busy; 63/76 jobs complete  Wed Aug 19 23:19:32 2026 : 13/40 workers busy; 63/76 jobs complete  Wed Aug 19 23:19:33 2026 : 13/40 workers busy; 63/76 jobs complete  Wed Aug 19 23:19:34 2026 : 13/40 workers busy; 63/76 jobs complete  Wed Aug 19 23:19:35 2026 : 13/40 workers busy; 63/76 jobs complete  Wed Aug 19 23:19:36 2026 : 13/40 workers busy; 63/76 jobs complete  Wed Aug 19 23:19:37 2026 : 13/40 workers busy; 63/76 jobs complete  Wed Aug 19 23:19:44 2026 : 12/40 workers busy; 64/76 jobs complete  Wed Aug 19 23:19:44 2026 : 11/40 workers busy; 65/76 jobs complete  Wed Aug 19 23:19:45 2026 : 10/40 workers busy; 66/76 jobs complete  Wed Aug 19 23:19:45 2026 : 10/40 workers busy; 66/76 jobs complete  Wed Aug 19 23:19:45 2026 : 9/40 workers busy; 67/76 jobs complete  Wed Aug 19 23:19:45 2026 : 8/40 workers busy; 68/76 jobs complete  Wed Aug 19 23:19:45 2026 : 7/40 workers busy; 69/76 jobs complete  Wed Aug 19 23:19:45 2026 : 6/40 workers busy; 70/76 jobs complete  Wed Aug 19 23:19:45 2026 : 5/40 workers busy; 71/76 jobs complete  Wed Aug 19 23:19:45 2026 : 4/40 workers busy; 72/76 jobs complete  Wed Aug 19 23:19:45 2026 : 3/40 workers busy; 73/76 jobs complete  Wed Aug 19 23:19:45 2026 : 2/40 workers busy; 74/76 jobs complete  Wed Aug 19 23:19:45 2026 : 1/40 workers busy; 75/76 jobs complete  Wed Aug 19 23:19:46 2026 : 1/40 workers busy; 75/76 jobs complete  Wed Aug 19 23:19:47 2026 : 1/40 workers busy; 75/76 jobs complete  Wed Aug 19 23:19:52 2026 : 1/40 workers busy; 75/76 jobs complete  Wed Aug 19 23:19:52 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:19:53 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:19:54 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:19:55 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:19:56 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:19:57 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:19:58 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:19:59 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:20:00 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:20:01 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:20:02 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:20:03 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:20:04 2026 : 0/40 workers busy; 76/76 jobs complete  Wed Aug 19 23:20:05 2026 : 0/40 workers busy; 76/76 jobs complete  Hessian diagonal search: H+0.0000*I, length 4.7036e-01, result -8.2337e+00
+Wed Aug 19 23:20:07 2026 : 1/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:08 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:09 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:10 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:11 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:12 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:13 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:14 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:15 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:16 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:17 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:18 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:19 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:20 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:21 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:22 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:23 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:24 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:25 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:26 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:27 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:28 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:29 2026 : 38/40 workers busy; 76/114 jobs complete  Wed Aug 19 23:20:30 2026 : 37/40 workers busy; 77/114 jobs complete  Wed Aug 19 23:20:30 2026 : 37/40 workers busy; 77/114 jobs complete  Wed Aug 19 23:20:31 2026 : 37/40 workers busy; 77/114 jobs complete  Wed Aug 19 23:20:31 2026 : 36/40 workers busy; 78/114 jobs complete  Wed Aug 19 23:20:31 2026 : 35/40 workers busy; 79/114 jobs complete  Wed Aug 19 23:20:31 2026 : 34/40 workers busy; 80/114 jobs complete  Wed Aug 19 23:20:31 2026 : 33/40 workers busy; 81/114 jobs complete  Wed Aug 19 23:20:31 2026 : 32/40 workers busy; 82/114 jobs complete  Wed Aug 19 23:20:31 2026 : 31/40 workers busy; 83/114 jobs complete  Wed Aug 19 23:20:31 2026 : 30/40 workers busy; 84/114 jobs complete  Wed Aug 19 23:20:31 2026 : 29/40 workers busy; 85/114 jobs complete  Wed Aug 19 23:20:31 2026 : 28/40 workers busy; 86/114 jobs complete  Wed Aug 19 23:20:31 2026 : 27/40 workers busy; 87/114 jobs complete  Wed Aug 19 23:20:31 2026 : 26/40 workers busy; 88/114 jobs complete  Wed Aug 19 23:20:31 2026 : 25/40 workers busy; 89/114 jobs complete  Wed Aug 19 23:20:31 2026 : 24/40 workers busy; 90/114 jobs complete  Wed Aug 19 23:20:31 2026 : 23/40 workers busy; 91/114 jobs complete  Wed Aug 19 23:20:31 2026 : 22/40 workers busy; 92/114 jobs complete  Wed Aug 19 23:20:31 2026 : 21/40 workers busy; 93/114 jobs complete  Wed Aug 19 23:20:31 2026 : 20/40 workers busy; 94/114 jobs complete  Wed Aug 19 23:20:31 2026 : 19/40 workers busy; 95/114 jobs complete  Wed Aug 19 23:20:31 2026 : 18/40 workers busy; 96/114 jobs complete  Wed Aug 19 23:20:31 2026 : 17/40 workers busy; 97/114 jobs complete  Wed Aug 19 23:20:31 2026 : 16/40 workers busy; 98/114 jobs complete  Wed Aug 19 23:20:31 2026 : 15/40 workers busy; 99/114 jobs complete  Wed Aug 19 23:20:31 2026 : 14/40 workers busy; 100/114 jobs complete  Wed Aug 19 23:20:31 2026 : 13/40 workers busy; 101/114 jobs complete  Wed Aug 19 23:20:31 2026 : 12/40 workers busy; 102/114 jobs complete  Wed Aug 19 23:20:32 2026 : 11/40 workers busy; 103/114 jobs complete  Wed Aug 19 23:20:32 2026 : 11/40 workers busy; 103/114 jobs complete  Wed Aug 19 23:20:32 2026 : 10/40 workers busy; 104/114 jobs complete  Wed Aug 19 23:20:32 2026 : 9/40 workers busy; 105/114 jobs complete  Wed Aug 19 23:20:32 2026 : 8/40 workers busy; 106/114 jobs complete  Wed Aug 19 23:20:32 2026 : 7/40 workers busy; 107/114 jobs complete  Wed Aug 19 23:20:32 2026 : 6/40 workers busy; 108/114 jobs complete  Wed Aug 19 23:20:35 2026 : 5/40 workers busy; 109/114 jobs complete  Wed Aug 19 23:20:35 2026 : 5/40 workers busy; 109/114 jobs complete  Wed Aug 19 23:20:39 2026 : 4/40 workers busy; 110/114 jobs complete  Wed Aug 19 23:20:39 2026 : 3/40 workers busy; 111/114 jobs complete  Wed Aug 19 23:20:40 2026 : 3/40 workers busy; 111/114 jobs complete  Wed Aug 19 23:20:41 2026 : 3/40 workers busy; 111/114 jobs complete  Wed Aug 19 23:20:42 2026 : 3/40 workers busy; 111/114 jobs complete  Wed Aug 19 23:20:43 2026 : 3/40 workers busy; 111/114 jobs complete  Wed Aug 19 23:20:44 2026 : 3/40 workers busy; 111/114 jobs complete  Wed Aug 19 23:20:45 2026 : 3/40 workers busy; 111/114 jobs complete  Wed Aug 19 23:20:46 2026 : 2/40 workers busy; 112/114 jobs complete  Wed Aug 19 23:20:46 2026 : 2/40 workers busy; 112/114 jobs complete  Wed Aug 19 23:20:47 2026 : 2/40 workers busy; 112/114 jobs complete  Wed Aug 19 23:20:48 2026 : 1/40 workers busy; 113/114 jobs complete  Wed Aug 19 23:20:48 2026 : 1/40 workers busy; 113/114 jobs complete  Wed Aug 19 23:20:49 2026 : 1/40 workers busy; 113/114 jobs complete  Wed Aug 19 23:20:50 2026 : 1/40 workers busy; 113/114 jobs complete  Wed Aug 19 23:20:50 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:51 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:52 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:53 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:54 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:55 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:56 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:57 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:58 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:20:59 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:21:00 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:21:01 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:21:02 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:21:03 2026 : 0/40 workers busy; 114/114 jobs complete  Wed Aug 19 23:21:04 2026 : 0/40 workers busy; 114/114 jobs complete  Hessian diagonal search: H+9.0000*I, length 2.7323e-01, result -8.0337e+00
+Wed Aug 19 23:21:06 2026 : 1/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:07 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:08 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:09 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:10 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:11 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:12 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:13 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:14 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:15 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:16 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:17 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:18 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:19 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:20 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:21 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:22 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:23 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:24 2026 : 38/40 workers busy; 114/152 jobs complete  Wed Aug 19 23:21:24 2026 : 37/40 workers busy; 115/152 jobs complete  Wed Aug 19 23:21:25 2026 : 36/40 workers busy; 116/152 jobs complete  Wed Aug 19 23:21:25 2026 : 36/40 workers busy; 116/152 jobs complete  Wed Aug 19 23:21:25 2026 : 35/40 workers busy; 117/152 jobs complete  Wed Aug 19 23:21:25 2026 : 34/40 workers busy; 118/152 jobs complete  Wed Aug 19 23:21:25 2026 : 33/40 workers busy; 119/152 jobs complete  Wed Aug 19 23:21:25 2026 : 32/40 workers busy; 120/152 jobs complete  Wed Aug 19 23:21:25 2026 : 31/40 workers busy; 121/152 jobs complete  Wed Aug 19 23:21:25 2026 : 30/40 workers busy; 122/152 jobs complete  Wed Aug 19 23:21:25 2026 : 29/40 workers busy; 123/152 jobs complete  Wed Aug 19 23:21:25 2026 : 28/40 workers busy; 124/152 jobs complete  Wed Aug 19 23:21:25 2026 : 27/40 workers busy; 125/152 jobs complete  Wed Aug 19 23:21:25 2026 : 26/40 workers busy; 126/152 jobs complete  Wed Aug 19 23:21:25 2026 : 25/40 workers busy; 127/152 jobs complete  Wed Aug 19 23:21:25 2026 : 24/40 workers busy; 128/152 jobs complete  Wed Aug 19 23:21:25 2026 : 23/40 workers busy; 129/152 jobs complete  Wed Aug 19 23:21:25 2026 : 22/40 workers busy; 130/152 jobs complete  Wed Aug 19 23:21:25 2026 : 21/40 workers busy; 131/152 jobs complete  Wed Aug 19 23:21:25 2026 : 20/40 workers busy; 132/152 jobs complete  Wed Aug 19 23:21:25 2026 : 19/40 workers busy; 133/152 jobs complete  Wed Aug 19 23:21:25 2026 : 18/40 workers busy; 134/152 jobs complete  Wed Aug 19 23:21:25 2026 : 17/40 workers busy; 135/152 jobs complete  Wed Aug 19 23:21:25 2026 : 16/40 workers busy; 136/152 jobs complete  Wed Aug 19 23:21:25 2026 : 15/40 workers busy; 137/152 jobs complete  Wed Aug 19 23:21:25 2026 : 14/40 workers busy; 138/152 jobs complete  Wed Aug 19 23:21:26 2026 : 13/40 workers busy; 139/152 jobs complete  Wed Aug 19 23:21:26 2026 : 13/40 workers busy; 139/152 jobs complete  Wed Aug 19 23:21:26 2026 : 12/40 workers busy; 140/152 jobs complete  Wed Aug 19 23:21:26 2026 : 11/40 workers busy; 141/152 jobs complete  Wed Aug 19 23:21:26 2026 : 10/40 workers busy; 142/152 jobs complete  Wed Aug 19 23:21:26 2026 : 9/40 workers busy; 143/152 jobs complete  Wed Aug 19 23:21:26 2026 : 8/40 workers busy; 144/152 jobs complete  Wed Aug 19 23:21:26 2026 : 7/40 workers busy; 145/152 jobs complete  Wed Aug 19 23:21:26 2026 : 6/40 workers busy; 146/152 jobs complete  Wed Aug 19 23:21:26 2026 : 5/40 workers busy; 147/152 jobs complete  Wed Aug 19 23:21:27 2026 : 4/40 workers busy; 148/152 jobs complete  Wed Aug 19 23:21:27 2026 : 4/40 workers busy; 148/152 jobs complete  Wed Aug 19 23:21:27 2026 : 3/40 workers busy; 149/152 jobs complete  Wed Aug 19 23:21:28 2026 : 3/40 workers busy; 149/152 jobs complete  Wed Aug 19 23:21:29 2026 : 3/40 workers busy; 149/152 jobs complete  Wed Aug 19 23:21:30 2026 : 3/40 workers busy; 149/152 jobs complete  Wed Aug 19 23:21:38 2026 : 2/40 workers busy; 150/152 jobs complete  Wed Aug 19 23:21:38 2026 : 2/40 workers busy; 150/152 jobs complete  Wed Aug 19 23:21:39 2026 : 2/40 workers busy; 150/152 jobs complete  Wed Aug 19 23:21:40 2026 : 2/40 workers busy; 150/152 jobs complete  Wed Aug 19 23:21:41 2026 : 2/40 workers busy; 150/152 jobs complete  Wed Aug 19 23:21:42 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:42 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:43 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:44 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:45 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:46 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:47 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:48 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:49 2026 : 1/40 workers busy; 151/152 jobs complete  Wed Aug 19 23:21:49 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:50 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:51 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:52 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:53 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:54 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:55 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:56 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:57 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:58 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:21:59 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:22:00 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:22:01 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:22:02 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:22:03 2026 : 0/40 workers busy; 152/152 jobs complete  Wed Aug 19 23:22:04 2026 : 0/40 workers busy; 152/152 jobs complete  Hessian diagonal search: H+23.5623*I, length 1.9808e-01, result -7.7871e+00
+Wed Aug 19 23:22:07 2026 : 1/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:08 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:09 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:10 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:11 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:12 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:13 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:14 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:15 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:16 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:17 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:18 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:19 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:20 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:21 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:22 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:23 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:24 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:25 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:26 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:27 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:28 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:29 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:30 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:31 2026 : 38/40 workers busy; 152/190 jobs complete  Wed Aug 19 23:22:31 2026 : 37/40 workers busy; 153/190 jobs complete  Wed Aug 19 23:22:31 2026 : 36/40 workers busy; 154/190 jobs complete  Wed Aug 19 23:22:31 2026 : 35/40 workers busy; 155/190 jobs complete  Wed Aug 19 23:22:31 2026 : 34/40 workers busy; 156/190 jobs complete  Wed Aug 19 23:22:32 2026 : 34/40 workers busy; 156/190 jobs complete  Wed Aug 19 23:22:33 2026 : 34/40 workers busy; 156/190 jobs complete  Wed Aug 19 23:22:34 2026 : 33/40 workers busy; 157/190 jobs complete  Wed Aug 19 23:22:34 2026 : 33/40 workers busy; 157/190 jobs complete  Wed Aug 19 23:22:34 2026 : 32/40 workers busy; 158/190 jobs complete  Wed Aug 19 23:22:34 2026 : 31/40 workers busy; 159/190 jobs complete  Wed Aug 19 23:22:34 2026 : 30/40 workers busy; 160/190 jobs complete  Wed Aug 19 23:22:34 2026 : 29/40 workers busy; 161/190 jobs complete  Wed Aug 19 23:22:34 2026 : 28/40 workers busy; 162/190 jobs complete  Wed Aug 19 23:22:35 2026 : 27/40 workers busy; 163/190 jobs complete  Wed Aug 19 23:22:35 2026 : 27/40 workers busy; 163/190 jobs complete  Wed Aug 19 23:22:35 2026 : 26/40 workers busy; 164/190 jobs complete  Wed Aug 19 23:22:35 2026 : 25/40 workers busy; 165/190 jobs complete  Wed Aug 19 23:22:35 2026 : 24/40 workers busy; 166/190 jobs complete  Wed Aug 19 23:22:35 2026 : 23/40 workers busy; 167/190 jobs complete  Wed Aug 19 23:22:35 2026 : 22/40 workers busy; 168/190 jobs complete  Wed Aug 19 23:22:35 2026 : 21/40 workers busy; 169/190 jobs complete  Wed Aug 19 23:22:35 2026 : 20/40 workers busy; 170/190 jobs complete  Wed Aug 19 23:22:35 2026 : 19/40 workers busy; 171/190 jobs complete  Wed Aug 19 23:22:35 2026 : 18/40 workers busy; 172/190 jobs complete  Wed Aug 19 23:22:36 2026 : 17/40 workers busy; 173/190 jobs complete  Wed Aug 19 23:22:36 2026 : 17/40 workers busy; 173/190 jobs complete  Wed Aug 19 23:22:36 2026 : 16/40 workers busy; 174/190 jobs complete  Wed Aug 19 23:22:36 2026 : 15/40 workers busy; 175/190 jobs complete  Wed Aug 19 23:22:36 2026 : 14/40 workers busy; 176/190 jobs complete  Wed Aug 19 23:22:36 2026 : 13/40 workers busy; 177/190 jobs complete  Wed Aug 19 23:22:36 2026 : 12/40 workers busy; 178/190 jobs complete  Wed Aug 19 23:22:36 2026 : 11/40 workers busy; 179/190 jobs complete  Wed Aug 19 23:22:38 2026 : 10/40 workers busy; 180/190 jobs complete  Wed Aug 19 23:22:38 2026 : 10/40 workers busy; 180/190 jobs complete  Wed Aug 19 23:22:39 2026 : 9/40 workers busy; 181/190 jobs complete  Wed Aug 19 23:22:39 2026 : 9/40 workers busy; 181/190 jobs complete  Wed Aug 19 23:22:39 2026 : 8/40 workers busy; 182/190 jobs complete  Wed Aug 19 23:22:39 2026 : 7/40 workers busy; 183/190 jobs complete  Wed Aug 19 23:22:39 2026 : 6/40 workers busy; 184/190 jobs complete  Wed Aug 19 23:22:39 2026 : 5/40 workers busy; 185/190 jobs complete  Wed Aug 19 23:22:39 2026 : 4/40 workers busy; 186/190 jobs complete  Wed Aug 19 23:22:39 2026 : 3/40 workers busy; 187/190 jobs complete  Wed Aug 19 23:22:40 2026 : 3/40 workers busy; 187/190 jobs complete  Wed Aug 19 23:22:41 2026 : 3/40 workers busy; 187/190 jobs complete  Wed Aug 19 23:22:42 2026 : 3/40 workers busy; 187/190 jobs complete  Wed Aug 19 23:22:43 2026 : 3/40 workers busy; 187/190 jobs complete  Wed Aug 19 23:22:44 2026 : 3/40 workers busy; 187/190 jobs complete  Wed Aug 19 23:22:45 2026 : 3/40 workers busy; 187/190 jobs complete  Wed Aug 19 23:22:46 2026 : 3/40 workers busy; 187/190 jobs complete  Wed Aug 19 23:22:46 2026 : 2/40 workers busy; 188/190 jobs complete  Wed Aug 19 23:22:46 2026 : 1/40 workers busy; 189/190 jobs complete  Wed Aug 19 23:22:47 2026 : 1/40 workers busy; 189/190 jobs complete  Wed Aug 19 23:22:48 2026 : 1/40 workers busy; 189/190 jobs complete  Wed Aug 19 23:22:49 2026 : 1/40 workers busy; 189/190 jobs complete  Wed Aug 19 23:22:50 2026 : 1/40 workers busy; 189/190 jobs complete  Wed Aug 19 23:22:51 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:51 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:52 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:53 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:54 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:55 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:56 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:57 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:58 2026 : 0/40 workers busy; 190/190 jobs complete  Wed Aug 19 23:22:59 2026 : 0/40 workers busy; 190/190 jobs complete  Hessian diagonal search: H+3.4377*I, length 3.5559e-01, result -8.1829e+00
+Wed Aug 19 23:23:00 2026 : 1/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:01 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:02 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:03 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:04 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:05 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:06 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:07 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:08 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:09 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:10 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:11 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:12 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:13 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:14 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:15 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:16 2026 : 38/40 workers busy; 190/228 jobs complete  Wed Aug 19 23:23:16 2026 : 37/40 workers busy; 191/228 jobs complete  Wed Aug 19 23:23:17 2026 : 36/40 workers busy; 192/228 jobs complete  Wed Aug 19 23:23:17 2026 : 36/40 workers busy; 192/228 jobs complete  Wed Aug 19 23:23:17 2026 : 35/40 workers busy; 193/228 jobs complete  Wed Aug 19 23:23:17 2026 : 34/40 workers busy; 194/228 jobs complete  Wed Aug 19 23:23:17 2026 : 33/40 workers busy; 195/228 jobs complete  Wed Aug 19 23:23:17 2026 : 32/40 workers busy; 196/228 jobs complete  Wed Aug 19 23:23:17 2026 : 31/40 workers busy; 197/228 jobs complete  Wed Aug 19 23:23:18 2026 : 30/40 workers busy; 198/228 jobs complete  Wed Aug 19 23:23:18 2026 : 30/40 workers busy; 198/228 jobs complete  Wed Aug 19 23:23:18 2026 : 29/40 workers busy; 199/228 jobs complete  Wed Aug 19 23:23:18 2026 : 28/40 workers busy; 200/228 jobs complete  Wed Aug 19 23:23:18 2026 : 27/40 workers busy; 201/228 jobs complete  Wed Aug 19 23:23:18 2026 : 26/40 workers busy; 202/228 jobs complete  Wed Aug 19 23:23:18 2026 : 25/40 workers busy; 203/228 jobs complete  Wed Aug 19 23:23:18 2026 : 24/40 workers busy; 204/228 jobs complete  Wed Aug 19 23:23:18 2026 : 23/40 workers busy; 205/228 jobs complete  Wed Aug 19 23:23:18 2026 : 22/40 workers busy; 206/228 jobs complete  Wed Aug 19 23:23:18 2026 : 21/40 workers busy; 207/228 jobs complete  Wed Aug 19 23:23:18 2026 : 20/40 workers busy; 208/228 jobs complete  Wed Aug 19 23:23:18 2026 : 19/40 workers busy; 209/228 jobs complete  Wed Aug 19 23:23:18 2026 : 18/40 workers busy; 210/228 jobs complete  Wed Aug 19 23:23:18 2026 : 17/40 workers busy; 211/228 jobs complete  Wed Aug 19 23:23:18 2026 : 16/40 workers busy; 212/228 jobs complete  Wed Aug 19 23:23:19 2026 : 15/40 workers busy; 213/228 jobs complete  Wed Aug 19 23:23:19 2026 : 15/40 workers busy; 213/228 jobs complete  Wed Aug 19 23:23:19 2026 : 14/40 workers busy; 214/228 jobs complete  Wed Aug 19 23:23:19 2026 : 13/40 workers busy; 215/228 jobs complete  Wed Aug 19 23:23:19 2026 : 12/40 workers busy; 216/228 jobs complete  Wed Aug 19 23:23:21 2026 : 11/40 workers busy; 217/228 jobs complete  Wed Aug 19 23:23:21 2026 : 11/40 workers busy; 217/228 jobs complete  Wed Aug 19 23:23:21 2026 : 10/40 workers busy; 218/228 jobs complete  Wed Aug 19 23:23:21 2026 : 9/40 workers busy; 219/228 jobs complete  Wed Aug 19 23:23:21 2026 : 8/40 workers busy; 220/228 jobs complete  Wed Aug 19 23:23:21 2026 : 7/40 workers busy; 221/228 jobs complete  Wed Aug 19 23:23:21 2026 : 6/40 workers busy; 222/228 jobs complete  Wed Aug 19 23:23:21 2026 : 5/40 workers busy; 223/228 jobs complete  Wed Aug 19 23:23:21 2026 : 4/40 workers busy; 224/228 jobs complete  Wed Aug 19 23:23:21 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:22 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:23 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:24 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:25 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:26 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:27 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:28 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:29 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:30 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:31 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:32 2026 : 3/40 workers busy; 225/228 jobs complete  Wed Aug 19 23:23:32 2026 : 2/40 workers busy; 226/228 jobs complete  Wed Aug 19 23:23:33 2026 : 2/40 workers busy; 226/228 jobs complete  Wed Aug 19 23:23:34 2026 : 2/40 workers busy; 226/228 jobs complete  Wed Aug 19 23:23:37 2026 : 1/40 workers busy; 227/228 jobs complete  Wed Aug 19 23:23:37 2026 : 1/40 workers busy; 227/228 jobs complete  Wed Aug 19 23:23:38 2026 : 1/40 workers busy; 227/228 jobs complete  Wed Aug 19 23:23:39 2026 : 1/40 workers busy; 227/228 jobs complete  Wed Aug 19 23:23:40 2026 : 1/40 workers busy; 227/228 jobs complete  Wed Aug 19 23:23:41 2026 : 1/40 workers busy; 227/228 jobs complete  Wed Aug 19 23:23:42 2026 : 1/40 workers busy; 227/228 jobs complete  Wed Aug 19 23:23:43 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:43 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:44 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:45 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:46 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:47 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:48 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:49 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:50 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:51 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:52 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:53 2026 : 0/40 workers busy; 228/228 jobs complete  Wed Aug 19 23:23:54 2026 : 0/40 workers busy; 228/228 jobs complete  Hessian diagonal search: H+1.3131*I, length 4.1570e-01, result -8.2318e+00
+Wed Aug 19 23:23:56 2026 : 1/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:23:57 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:23:58 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:23:59 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:00 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:01 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:02 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:03 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:04 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:05 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:06 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:07 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:08 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:09 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:10 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:11 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:12 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:13 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:14 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:15 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:16 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:17 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:18 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:19 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:20 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:21 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:22 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:23 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:24 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:25 2026 : 38/40 workers busy; 228/266 jobs complete  Wed Aug 19 23:24:29 2026 : 37/40 workers busy; 229/266 jobs complete  Wed Aug 19 23:24:29 2026 : 36/40 workers busy; 230/266 jobs complete  Wed Aug 19 23:24:29 2026 : 35/40 workers busy; 231/266 jobs complete  Wed Aug 19 23:24:29 2026 : 34/40 workers busy; 232/266 jobs complete  Wed Aug 19 23:24:29 2026 : 33/40 workers busy; 233/266 jobs complete  Wed Aug 19 23:24:29 2026 : 32/40 workers busy; 234/266 jobs complete  Wed Aug 19 23:24:29 2026 : 31/40 workers busy; 235/266 jobs complete  Wed Aug 19 23:24:29 2026 : 30/40 workers busy; 236/266 jobs complete  Wed Aug 19 23:24:29 2026 : 29/40 workers busy; 237/266 jobs complete  Wed Aug 19 23:24:29 2026 : 28/40 workers busy; 238/266 jobs complete  Wed Aug 19 23:24:29 2026 : 27/40 workers busy; 239/266 jobs complete  Wed Aug 19 23:24:29 2026 : 26/40 workers busy; 240/266 jobs complete  Wed Aug 19 23:24:29 2026 : 25/40 workers busy; 241/266 jobs complete  Wed Aug 19 23:24:30 2026 : 25/40 workers busy; 241/266 jobs complete  Wed Aug 19 23:24:30 2026 : 24/40 workers busy; 242/266 jobs complete  Wed Aug 19 23:24:30 2026 : 23/40 workers busy; 243/266 jobs complete  Wed Aug 19 23:24:31 2026 : 22/40 workers busy; 244/266 jobs complete  Wed Aug 19 23:24:31 2026 : 22/40 workers busy; 244/266 jobs complete  Wed Aug 19 23:24:31 2026 : 21/40 workers busy; 245/266 jobs complete  Wed Aug 19 23:24:33 2026 : 20/40 workers busy; 246/266 jobs complete  Wed Aug 19 23:24:33 2026 : 20/40 workers busy; 246/266 jobs complete  Wed Aug 19 23:24:33 2026 : 19/40 workers busy; 247/266 jobs complete  Wed Aug 19 23:24:33 2026 : 18/40 workers busy; 248/266 jobs complete  Wed Aug 19 23:24:33 2026 : 17/40 workers busy; 249/266 jobs complete  Wed Aug 19 23:24:33 2026 : 16/40 workers busy; 250/266 jobs complete  Wed Aug 19 23:24:33 2026 : 15/40 workers busy; 251/266 jobs complete  Wed Aug 19 23:24:33 2026 : 14/40 workers busy; 252/266 jobs complete  Wed Aug 19 23:24:33 2026 : 13/40 workers busy; 253/266 jobs complete  Wed Aug 19 23:24:33 2026 : 12/40 workers busy; 254/266 jobs complete  Wed Aug 19 23:24:33 2026 : 11/40 workers busy; 255/266 jobs complete  Wed Aug 19 23:24:33 2026 : 10/40 workers busy; 256/266 jobs complete  Wed Aug 19 23:24:34 2026 : 9/40 workers busy; 257/266 jobs complete  Wed Aug 19 23:24:34 2026 : 9/40 workers busy; 257/266 jobs complete  Wed Aug 19 23:24:34 2026 : 8/40 workers busy; 258/266 jobs complete  Wed Aug 19 23:24:34 2026 : 7/40 workers busy; 259/266 jobs complete  Wed Aug 19 23:24:34 2026 : 6/40 workers busy; 260/266 jobs complete  Wed Aug 19 23:24:34 2026 : 5/40 workers busy; 261/266 jobs complete  Wed Aug 19 23:24:34 2026 : 4/40 workers busy; 262/266 jobs complete  Wed Aug 19 23:24:34 2026 : 3/40 workers busy; 263/266 jobs complete  Wed Aug 19 23:24:35 2026 : 3/40 workers busy; 263/266 jobs complete  Wed Aug 19 23:24:36 2026 : 3/40 workers busy; 263/266 jobs complete  Wed Aug 19 23:24:37 2026 : 3/40 workers busy; 263/266 jobs complete  Wed Aug 19 23:24:37 2026 : 2/40 workers busy; 264/266 jobs complete  Wed Aug 19 23:24:38 2026 : 2/40 workers busy; 264/266 jobs complete  Wed Aug 19 23:24:39 2026 : 2/40 workers busy; 264/266 jobs complete  Wed Aug 19 23:24:40 2026 : 2/40 workers busy; 264/266 jobs complete  Wed Aug 19 23:24:41 2026 : 1/40 workers busy; 265/266 jobs complete  Wed Aug 19 23:24:41 2026 : 1/40 workers busy; 265/266 jobs complete  Wed Aug 19 23:24:41 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:42 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:43 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:44 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:45 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:46 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:47 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:48 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:49 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:50 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:51 2026 : 0/40 workers busy; 266/266 jobs complete  Wed Aug 19 23:24:52 2026 : 0/40 workers busy; 266/266 jobs complete  Hessian diagonal search: H+0.2360*I, length 4.5915e-01, result -8.2367e+00
+Wed Aug 19 23:24:59 2026 : 1/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:00 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:01 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:02 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:03 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:04 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:05 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:06 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:07 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:08 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:09 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:10 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:11 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:12 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:13 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:14 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:15 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:16 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:17 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:18 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:19 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:20 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:21 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:22 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:23 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:24 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:25 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:26 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:27 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:28 2026 : 38/40 workers busy; 266/304 jobs complete  Wed Aug 19 23:25:29 2026 : 37/40 workers busy; 267/304 jobs complete  Wed Aug 19 23:25:29 2026 : 37/40 workers busy; 267/304 jobs complete  Wed Aug 19 23:25:29 2026 : 36/40 workers busy; 268/304 jobs complete  Wed Aug 19 23:25:29 2026 : 35/40 workers busy; 269/304 jobs complete  Wed Aug 19 23:25:29 2026 : 34/40 workers busy; 270/304 jobs complete  Wed Aug 19 23:25:29 2026 : 33/40 workers busy; 271/304 jobs complete  Wed Aug 19 23:25:29 2026 : 32/40 workers busy; 272/304 jobs complete  Wed Aug 19 23:25:29 2026 : 31/40 workers busy; 273/304 jobs complete  Wed Aug 19 23:25:29 2026 : 30/40 workers busy; 274/304 jobs complete  Wed Aug 19 23:25:29 2026 : 29/40 workers busy; 275/304 jobs complete  Wed Aug 19 23:25:29 2026 : 28/40 workers busy; 276/304 jobs complete  Wed Aug 19 23:25:29 2026 : 27/40 workers busy; 277/304 jobs complete  Wed Aug 19 23:25:29 2026 : 26/40 workers busy; 278/304 jobs complete  Wed Aug 19 23:25:29 2026 : 25/40 workers busy; 279/304 jobs complete  Wed Aug 19 23:25:29 2026 : 24/40 workers busy; 280/304 jobs complete  Wed Aug 19 23:25:29 2026 : 23/40 workers busy; 281/304 jobs complete  Wed Aug 19 23:25:29 2026 : 22/40 workers busy; 282/304 jobs complete  Wed Aug 19 23:25:29 2026 : 21/40 workers busy; 283/304 jobs complete  Wed Aug 19 23:25:29 2026 : 20/40 workers busy; 284/304 jobs complete  Wed Aug 19 23:25:29 2026 : 19/40 workers busy; 285/304 jobs complete  Wed Aug 19 23:25:29 2026 : 18/40 workers busy; 286/304 jobs complete  Wed Aug 19 23:25:29 2026 : 17/40 workers busy; 287/304 jobs complete  Wed Aug 19 23:25:29 2026 : 16/40 workers busy; 288/304 jobs complete  Wed Aug 19 23:25:29 2026 : 15/40 workers busy; 289/304 jobs complete  Wed Aug 19 23:25:29 2026 : 14/40 workers busy; 290/304 jobs complete  Wed Aug 19 23:25:29 2026 : 13/40 workers busy; 291/304 jobs complete  Wed Aug 19 23:25:29 2026 : 12/40 workers busy; 292/304 jobs complete  Wed Aug 19 23:25:29 2026 : 11/40 workers busy; 293/304 jobs complete  Wed Aug 19 23:25:29 2026 : 10/40 workers busy; 294/304 jobs complete  Wed Aug 19 23:25:29 2026 : 9/40 workers busy; 295/304 jobs complete  Wed Aug 19 23:25:29 2026 : 8/40 workers busy; 296/304 jobs complete  Wed Aug 19 23:25:29 2026 : 7/40 workers busy; 297/304 jobs complete  Wed Aug 19 23:25:29 2026 : 6/40 workers busy; 298/304 jobs complete  Wed Aug 19 23:25:29 2026 : 5/40 workers busy; 299/304 jobs complete  Wed Aug 19 23:25:29 2026 : 4/40 workers busy; 300/304 jobs complete  Wed Aug 19 23:25:29 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:30 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:31 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:32 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:33 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:34 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:35 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:36 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:37 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:38 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:39 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:40 2026 : 3/40 workers busy; 301/304 jobs complete  Wed Aug 19 23:25:41 2026 : 2/40 workers busy; 302/304 jobs complete  Wed Aug 19 23:25:41 2026 : 2/40 workers busy; 302/304 jobs complete  Wed Aug 19 23:25:42 2026 : 2/40 workers busy; 302/304 jobs complete  Wed Aug 19 23:25:43 2026 : 1/40 workers busy; 303/304 jobs complete  Wed Aug 19 23:25:43 2026 : 1/40 workers busy; 303/304 jobs complete  Wed Aug 19 23:25:44 2026 : 0/40 workers busy; 304/304 jobs complete  Wed Aug 19 23:25:44 2026 : 0/40 workers busy; 304/304 jobs complete  Wed Aug 19 23:25:45 2026 : 0/40 workers busy; 304/304 jobs complete  Wed Aug 19 23:25:46 2026 : 0/40 workers busy; 304/304 jobs complete  Wed Aug 19 23:25:47 2026 : 0/40 workers busy; 304/304 jobs complete  Wed Aug 19 23:25:48 2026 : 0/40 workers busy; 304/304 jobs complete  Wed Aug 19 23:25:49 2026 : 0/40 workers busy; 304/304 jobs complete  Wed Aug 19 23:25:50 2026 : 0/40 workers busy; 304/304 jobs complete  Hessian diagonal search: H+0.4024*I, length 4.5165e-01, result -8.2378e+00
+Wed Aug 19 23:26:00 2026 : 1/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:01 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:02 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:03 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:04 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:05 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:06 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:07 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:08 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:09 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:10 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:11 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:12 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:13 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:14 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:15 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:16 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:17 2026 : 38/40 workers busy; 304/342 jobs complete  Wed Aug 19 23:26:17 2026 : 37/40 workers busy; 305/342 jobs complete  Wed Aug 19 23:26:18 2026 : 36/40 workers busy; 306/342 jobs complete  Wed Aug 19 23:26:18 2026 : 36/40 workers busy; 306/342 jobs complete  Wed Aug 19 23:26:18 2026 : 35/40 workers busy; 307/342 jobs complete  Wed Aug 19 23:26:18 2026 : 34/40 workers busy; 308/342 jobs complete  Wed Aug 19 23:26:18 2026 : 33/40 workers busy; 309/342 jobs complete  Wed Aug 19 23:26:18 2026 : 32/40 workers busy; 310/342 jobs complete  Wed Aug 19 23:26:18 2026 : 31/40 workers busy; 311/342 jobs complete  Wed Aug 19 23:26:18 2026 : 30/40 workers busy; 312/342 jobs complete  Wed Aug 19 23:26:18 2026 : 29/40 workers busy; 313/342 jobs complete  Wed Aug 19 23:26:19 2026 : 28/40 workers busy; 314/342 jobs complete  Wed Aug 19 23:26:19 2026 : 28/40 workers busy; 314/342 jobs complete  Wed Aug 19 23:26:19 2026 : 27/40 workers busy; 315/342 jobs complete  Wed Aug 19 23:26:19 2026 : 26/40 workers busy; 316/342 jobs complete  Wed Aug 19 23:26:19 2026 : 25/40 workers busy; 317/342 jobs complete  Wed Aug 19 23:26:19 2026 : 24/40 workers busy; 318/342 jobs complete  Wed Aug 19 23:26:19 2026 : 23/40 workers busy; 319/342 jobs complete  Wed Aug 19 23:26:19 2026 : 22/40 workers busy; 320/342 jobs complete  Wed Aug 19 23:26:19 2026 : 21/40 workers busy; 321/342 jobs complete  Wed Aug 19 23:26:19 2026 : 20/40 workers busy; 322/342 jobs complete  Wed Aug 19 23:26:19 2026 : 19/40 workers busy; 323/342 jobs complete  Wed Aug 19 23:26:19 2026 : 18/40 workers busy; 324/342 jobs complete  Wed Aug 19 23:26:24 2026 : 17/40 workers busy; 325/342 jobs complete  Wed Aug 19 23:26:24 2026 : 16/40 workers busy; 326/342 jobs complete  Wed Aug 19 23:26:24 2026 : 15/40 workers busy; 327/342 jobs complete  Wed Aug 19 23:26:24 2026 : 14/40 workers busy; 328/342 jobs complete  Wed Aug 19 23:26:24 2026 : 13/40 workers busy; 329/342 jobs complete  Wed Aug 19 23:26:24 2026 : 12/40 workers busy; 330/342 jobs complete  Wed Aug 19 23:26:24 2026 : 11/40 workers busy; 331/342 jobs complete  Wed Aug 19 23:26:24 2026 : 10/40 workers busy; 332/342 jobs complete  Wed Aug 19 23:26:24 2026 : 9/40 workers busy; 333/342 jobs complete  Wed Aug 19 23:26:24 2026 : 8/40 workers busy; 334/342 jobs complete  Wed Aug 19 23:26:24 2026 : 7/40 workers busy; 335/342 jobs complete  Wed Aug 19 23:26:24 2026 : 6/40 workers busy; 336/342 jobs complete  Wed Aug 19 23:26:24 2026 : 5/40 workers busy; 337/342 jobs complete  Wed Aug 19 23:26:24 2026 : 4/40 workers busy; 338/342 jobs complete  Wed Aug 19 23:26:25 2026 : 4/40 workers busy; 338/342 jobs complete  Wed Aug 19 23:26:25 2026 : 3/40 workers busy; 339/342 jobs complete  Wed Aug 19 23:26:26 2026 : 3/40 workers busy; 339/342 jobs complete  Wed Aug 19 23:26:27 2026 : 3/40 workers busy; 339/342 jobs complete  Wed Aug 19 23:26:28 2026 : 3/40 workers busy; 339/342 jobs complete  Wed Aug 19 23:26:29 2026 : 3/40 workers busy; 339/342 jobs complete  Wed Aug 19 23:26:32 2026 : 3/40 workers busy; 339/342 jobs complete  Wed Aug 19 23:26:33 2026 : 3/40 workers busy; 339/342 jobs complete  Wed Aug 19 23:26:33 2026 : 2/40 workers busy; 340/342 jobs complete  Wed Aug 19 23:26:34 2026 : 2/40 workers busy; 340/342 jobs complete  Wed Aug 19 23:26:35 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:35 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:36 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:37 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:38 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:39 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:40 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:41 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:42 2026 : 1/40 workers busy; 341/342 jobs complete  Wed Aug 19 23:26:42 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:43 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:44 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:45 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:46 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:47 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:48 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:49 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:50 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:51 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:52 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:53 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:54 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:55 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:56 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:57 2026 : 0/40 workers busy; 342/342 jobs complete  Wed Aug 19 23:26:58 2026 : 0/40 workers busy; 342/342 jobs complete  Hessian diagonal search: H+0.6885*I, length 4.3948e-01, result -8.2377e+00
+Optimization step found (length 4.5165e-01)
+#========================================================#
+#| [95m  Mathematical Parameters (Current + Step = Next)   [0m |#
+#========================================================#
+   0 [  0.0000e+00 - 4.3927e-04 = -4.3927e-04 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   1 [  0.0000e+00 - 2.7783e-02 = -2.7783e-02 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   2 [  0.0000e+00 - 2.0797e-03 = -2.0797e-03 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+   3 [  0.0000e+00 + 3.4953e-02 =  3.4953e-02 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+   4 [  0.0000e+00 - 3.4931e-01 = -3.4931e-01 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+   5 [  0.0000e+00 + 1.2490e-01 =  1.2490e-01 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+   6 [  0.0000e+00 + 1.9192e-01 =  1.9192e-01 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+   7 [  0.0000e+00 - 5.4932e-02 = -5.4932e-02 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+   8 [  0.0000e+00 + 2.1225e-03 =  2.1225e-03 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X4:3]-[*:4]
+   9 [  0.0000e+00 - 9.4172e-02 = -9.4172e-02 ] : ProperTorsions/Proper/k3/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  10 [  0.0000e+00 + 1.2852e-02 =  1.2852e-02 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  11 [  0.0000e+00 - 5.0156e-02 = -5.0156e-02 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  12 [  0.0000e+00 - 2.3460e-02 = -2.3460e-02 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  13 [  0.0000e+00 + 6.1543e-03 =  6.1543e-03 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  14 [  0.0000e+00 + 2.5638e-02 =  2.5638e-02 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]-[#6X4:3]-[*:4]
+  15 [  0.0000e+00 - 3.4749e-02 = -3.4749e-02 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X3:3]=[*:4]
+  16 [  0.0000e+00 + 6.9163e-02 =  6.9163e-02 ] : ProperTorsions/Proper/k2/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  17 [  0.0000e+00 - 3.5859e-02 = -3.5859e-02 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  18 [  0.0000e+00 + 6.5876e-02 =  6.5876e-02 ] : ProperTorsions/Proper/k1/[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]
+  19 [  0.0000e+00 + 1.0047e-02 =  1.0047e-02 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[*:3])~[*:4]
+  20 [  0.0000e+00 + 0.0000e+00 =  0.0000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]
+  21 [  0.0000e+00 + 0.0000e+00 =  0.0000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]
+  22 [  0.0000e+00 + 0.0000e+00 =  0.0000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]
+  23 [  0.0000e+00 + 0.0000e+00 =  0.0000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]
+  24 [  0.0000e+00 + 0.0000e+00 =  0.0000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]
+  25 [  0.0000e+00 + 0.0000e+00 =  0.0000e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]
+----------------------------------------------------------
+#========================================================#
+#| [95m    Physical Parameters (Current + Step = Next)     [0m |#
+#========================================================#
+   0 [  4.5793e+02 - 4.3927e-02 =  4.5788e+02 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   1 [  1.5260e+00 - 2.7783e-03 =  1.5232e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   2 [  6.8077e+02 - 2.0797e-01 =  6.8056e+02 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+   3 [  1.0924e+00 + 3.4953e-03 =  1.0959e+00 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+   4 [  9.9692e+01 - 3.4931e+01 =  6.4761e+01 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+   5 [  1.0965e+02 + 6.2450e-01 =  1.1028e+02 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+   6 [  3.9432e+01 + 1.9192e+01 =  5.8623e+01 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+   7 [  1.0801e+02 - 2.7466e-01 =  1.0773e+02 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+   8 [  1.5740e-01 + 1.0612e-02 =  1.6801e-01 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X4:3]-[*:4]
+   9 [  5.9125e-01 - 4.7086e-01 =  1.2039e-01 ] : ProperTorsions/Proper/k3/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  10 [  1.2290e-01 + 6.4261e-02 =  1.8717e-01 ] : ProperTorsions/Proper/k2/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  11 [  3.1101e-01 - 2.5078e-01 =  6.0234e-02 ] : ProperTorsions/Proper/k1/[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  12 [  2.3921e-01 - 1.1730e-01 =  1.2191e-01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  13 [  1.3264e-01 + 3.0771e-02 =  1.6341e-01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  14 [  2.5105e-01 + 1.2819e-01 =  3.7924e-01 ] : ProperTorsions/Proper/k1/[*:1]~[#6X3:2]-[#6X4:3]-[*:4]
+  15 [ -9.2630e-02 - 1.7375e-01 = -2.6638e-01 ] : ProperTorsions/Proper/k1/[*:1]-[#6X4:2]-[#6X3:3]=[*:4]
+  16 [ -6.2558e-03 + 3.4581e-01 =  3.3956e-01 ] : ProperTorsions/Proper/k2/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  17 [  1.3934e-01 - 1.7930e-01 = -3.9953e-02 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]
+  18 [  4.2947e+00 + 3.2938e-01 =  4.6241e+00 ] : ProperTorsions/Proper/k1/[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]
+  19 [  1.0142e+01 + 5.0234e-02 =  1.0192e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[*:3])~[*:4]
+  20 [  1.5486e+01 + 0.0000e+00 =  1.5486e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]
+  21 [  1.3499e+01 + 0.0000e+00 =  1.3499e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]
+  22 [  7.5432e-01 + 0.0000e+00 =  7.5432e-01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]
+  23 [ -2.2850e+00 + 0.0000e+00 = -2.2850e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]
+  24 [  1.2273e+01 + 0.0000e+00 =  1.2273e+01 ] : ImproperTorsions/Improper/k1/[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]
+  25 [  7.7352e+00 + 0.0000e+00 =  7.7352e+00 ] : ImproperTorsions/Improper/k1/[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]
+----------------------------------------------------------
+Input file with saved parameters: optimize.sav
+#========================================================#
+#| [94m     Iteration 1: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Wed Aug 19 23:27:03 2026 : 1/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:04 2026 : 4/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:05 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:06 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:07 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:08 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:09 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:10 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:11 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:12 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:13 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:14 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:15 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:16 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:17 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:18 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:19 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:20 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:21 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:22 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:23 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:24 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:25 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:26 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:27 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:28 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:29 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:30 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:31 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:32 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:33 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:34 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:35 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:36 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:37 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:38 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:39 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:40 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:41 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:42 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:43 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:44 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:45 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:46 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:47 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:48 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:49 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:50 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:51 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:52 2026 : 38/40 workers busy; 342/380 jobs complete  Wed Aug 19 23:27:53 2026 : 37/40 workers busy; 343/380 jobs complete  Wed Aug 19 23:27:53 2026 : 37/40 workers busy; 343/380 jobs complete  Wed Aug 19 23:27:54 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:27:54 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:27:55 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:27:56 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:27:57 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:27:58 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:27:59 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:28:00 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:28:01 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:28:02 2026 : 36/40 workers busy; 344/380 jobs complete  Wed Aug 19 23:28:03 2026 : 35/40 workers busy; 345/380 jobs complete  Wed Aug 19 23:28:03 2026 : 35/40 workers busy; 345/380 jobs complete  Wed Aug 19 23:28:03 2026 : 34/40 workers busy; 346/380 jobs complete  Wed Aug 19 23:28:04 2026 : 33/40 workers busy; 347/380 jobs complete  Wed Aug 19 23:28:04 2026 : 33/40 workers busy; 347/380 jobs complete  Wed Aug 19 23:28:05 2026 : 32/40 workers busy; 348/380 jobs complete  Wed Aug 19 23:28:05 2026 : 32/40 workers busy; 348/380 jobs complete  Task 'torsion-137755351' (task 345) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (61 seconds)
+Wed Aug 19 23:28:05 2026 : 31/40 workers busy; 349/380 jobs complete  Wed Aug 19 23:28:05 2026 : 30/40 workers busy; 350/380 jobs complete  Wed Aug 19 23:28:06 2026 : 30/40 workers busy; 350/380 jobs complete  Wed Aug 19 23:28:07 2026 : 30/40 workers busy; 350/380 jobs complete  Wed Aug 19 23:28:08 2026 : 29/40 workers busy; 351/380 jobs complete  Task 'torsion-137755479' (task 358) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (63 seconds)
+Wed Aug 19 23:28:08 2026 : 29/40 workers busy; 351/380 jobs complete  Task 'torsion-137755355' (task 348) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (64 seconds)
+Wed Aug 19 23:28:08 2026 : 28/40 workers busy; 352/380 jobs complete  Wed Aug 19 23:28:09 2026 : 27/40 workers busy; 353/380 jobs complete  Task 'torsion-137755454' (task 357) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (63 seconds)
+Wed Aug 19 23:28:09 2026 : 27/40 workers busy; 353/380 jobs complete  Task 'torsion-150595353' (task 377) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (64 seconds)
+Wed Aug 19 23:28:09 2026 : 26/40 workers busy; 354/380 jobs complete  Wed Aug 19 23:28:10 2026 : 26/40 workers busy; 354/380 jobs complete  Wed Aug 19 23:28:11 2026 : 25/40 workers busy; 355/380 jobs complete  Task 'torsion-137755491' (task 365) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (66 seconds)
+Wed Aug 19 23:28:11 2026 : 25/40 workers busy; 355/380 jobs complete  Wed Aug 19 23:28:12 2026 : 25/40 workers busy; 355/380 jobs complete  Task 'torsion-137755489' (task 362) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (67 seconds)
+Wed Aug 19 23:28:12 2026 : 24/40 workers busy; 356/380 jobs complete  Wed Aug 19 23:28:13 2026 : 23/40 workers busy; 357/380 jobs complete  Task 'torsion-137755490' (task 355) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (69 seconds)
+Wed Aug 19 23:28:13 2026 : 23/40 workers busy; 357/380 jobs complete  Task 'torsion-137755480' (task 346) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (69 seconds)
+Wed Aug 19 23:28:13 2026 : 22/40 workers busy; 358/380 jobs complete  Wed Aug 19 23:28:14 2026 : 22/40 workers busy; 358/380 jobs complete  Task 'torsion-137755364' (task 356) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (70 seconds)
+Wed Aug 19 23:28:14 2026 : 21/40 workers busy; 359/380 jobs complete  Wed Aug 19 23:28:15 2026 : 21/40 workers busy; 359/380 jobs complete  
+#==================================================================================================================================================#
+#| [92m                           Torsion Profile: torsion-137755351, Objective =  7.26126e-04, Units = kcal/mol, Angstrom                           [0m |#
+#| [92m System                                             Min(QM)    Min(MM)      Range(QM)          Range(MM)    Max-RMSD   Ene-RMSE    Obj-Fn     [0m |#
+#==================================================================================================================================================#
+torsion-137755351                                         180         60     0.000 - 1.897    -0.002 - 1.865      0.027     0.0269    0.0007 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Task 'torsion-137755349' (task 359) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (71 seconds)
+Wed Aug 19 23:28:15 2026 : 20/40 workers busy; 360/380 jobs complete  Wed Aug 19 23:28:16 2026 : 19/40 workers busy; 361/380 jobs complete  Task 'torsion-137755465' (task 354) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (72 seconds)
+Wed Aug 19 23:28:16 2026 : 19/40 workers busy; 361/380 jobs complete  Task 'torsion-137755354' (task 368) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (71 seconds)
+Wed Aug 19 23:28:16 2026 : 18/40 workers busy; 362/380 jobs complete  Wed Aug 19 23:28:17 2026 : 18/40 workers busy; 362/380 jobs complete  Wed Aug 19 23:28:22 2026 : 17/40 workers busy; 363/380 jobs complete  Task 'torsion-137755357' (task 360) finished successfully on host bgpu-shirts2.rc.int.colorado.edu (73 seconds)
+Wed Aug 19 23:28:22 2026 : 17/40 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:23 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:24 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:25 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:26 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:27 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:28 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:29 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:30 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:31 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:32 2026 : 0/0 workers busy; 363/380 jobs complete  Wed Aug 19 23:28:33 2026 : 0/0 workers busy; 363/380 jobs complete  
